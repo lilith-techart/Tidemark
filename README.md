@@ -43,7 +43,7 @@ The package lineage is intentionally conservative: **G004 remains the UE source 
 </td>
 <td width="50%">
 <img src="media/stable-source-g004.jpg" width="100%"><br>
-<sub><b>G004 — same HERO camera, UE source provenance.</b> The stable source measured against, so "retained" is not a bare assertion: settlement density and shore layering are what changed; tower transform and water negative space did not.</sub>
+<sub><b>G004 — same HERO camera, UE source provenance.</b> The stable source measured against, so "retained" is not a bare assertion: both frames come from <code>scenespec_camera_hero</code> at the identical transform (location −4700, −4100, 1350 cm; rotation −6°, 52°; FOV 58; 1280×720; camera move count 0). Settlement density and shore layering are what changed; tower transform and water negative space did not.</sub>
 </td>
 </tr>
 </table>
@@ -54,7 +54,7 @@ The package lineage is intentionally conservative: **G004 remains the UE source 
 <img src="media/progress-g010-g011-g012.jpg" width="920" alt="Tidemark G010 G011 G012 C027 progression, identical camera poses">
 </p>
 
-The comparison shows the recent integrated-settlement phase: G010 restored visible density, G011 improved asymmetry / grounding / platform relationships, and G012 combines those lessons into the first candidate that clears the supplied technical retention gate. All three panels use identical protected camera poses; G010 and G011 are **not retained**, and are shown as evidence rather than as current state.
+The comparison shows the recent integrated-settlement phase: G010 restored visible density, G011 improved asymmetry / grounding / platform relationships, and G012 combines those lessons into the first candidate **of this phase** to clear the supplied technical retention gate (G010 and G011 were rated PARTIAL / not retained). All three panels use identical protected camera poses; G010 and G011 are **not retained**, and are shown as evidence rather than as current state.
 
 ## Technical Art / Environment Work
 
@@ -139,7 +139,7 @@ If Human Art review rejects the composition, iteration stays candidate-only; the
 - **Human Art:** PENDING.
 - **Canonical promotion:** NOT PERFORMED.
 - **Current retained visual candidate:** G012.
-- **UE source provenance:** G004.
+- **UE source provenance:** G004 — selected as the best generation of its overnight run, which was itself rated **PARTIAL** with an open `GAMEPLAY_RELATION = CONFLICT`. "Source provenance" means the lineage G012 was measured against, not a finished or approved scene.
 - **New visual terrain walkability:** NOT CERTIFIED.
 - **Final materials / vegetation / coast art:** NOT COMPLETE.
 - **Lighting / camera:** protected; current comparisons do not fabricate camera alignment to the concept.

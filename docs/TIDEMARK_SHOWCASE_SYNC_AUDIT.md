@@ -63,6 +63,24 @@ valid; the SHA256 table above replaces the earlier one.
 
 Total public media after rebuild: 8 files, 475 KB, replacing 8 files, 12.1 MB.
 
+## Comparison framing is checkable
+
+The G012 / G004 HERO pair is only meaningful if both frames use the same camera. From each run's
+`previews/HERO_camera.json`:
+
+| Field | G004 | G012 |
+| --- | --- | --- |
+| camera | `scenespec_camera_hero` | `scenespec_camera_hero` |
+| location (cm) | −4700, −4100, 1350 | −4700, −4100, 1350 |
+| rotation (deg) | −6, 52, 0 | −6, 52, 0 |
+| FOV | 58 | 58 |
+| resolution | 1280×720 | 1280×720 |
+| camera move count | 0 | 0 |
+| save called | false | false |
+
+Only the candidate map path and the screenshot stem differ. A reviewer can therefore read the two
+images as the same viewpoint rather than as a re-framed before/after.
+
 These images come from real project captures supplied for G012 review. No AI-generated image is presented as UE output; the external concept image is not included in the new public media set.
 
 ## Still WIP

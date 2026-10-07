@@ -15,7 +15,7 @@ The old public status **“First Art Pass awaiting human review”** is therefor
 ## Current authority
 
 - G012 is the latest retained visual candidate.
-- G004 remains the UE source provenance for the candidate lineage.
+- G004 remains the UE source provenance for the candidate lineage. Its own overnight run was rated **PARTIAL** (`BEST_GENERATION = G004`, `GENERATIONS_RETAINED = 1`, open `GAMEPLAY_RELATION = CONFLICT`), so "source provenance" is a lineage statement, not an approval of G004 as finished art.
 - Human Art remains **PENDING**.
 - Canonical write / promotion remains **0** for G012.
 - Protected regression checks passed.

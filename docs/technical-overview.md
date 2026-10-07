@@ -1,35 +1,91 @@
 # Tidemark — 技术拆解
 
-## 从视觉 intent 到可走空间
+## 1. Separate authorities: visual, gameplay, review
 
-场景组织区分主岛、塔、建筑群、dock 与 boardwalk。视觉层按既定空间结构迭代，gameplay collision 单独维护，避免新增装饰自动成为角色障碍。
+Tidemark deliberately separates three questions:
+
+1. **Does the scene read closer to the intended environment?**
+2. **Can the bounded route / character test still work?**
+3. **Has a human accepted the visual result?**
+
+A newer candidate does not become the current build merely because it rendered successfully.
 
 ```mermaid
 flowchart TD
-    Intent[Scene intent and scale] --> Gameplay[Route and collision]
-    Intent --> Visual[Replaceable visual layer]
-    Gameplay --> Traversal[CharacterMovement checks]
-    Visual --> Frames[Camera captures]
-    Traversal --> Review[Technical and human review]
-    Frames --> Review
+    Intent[Reference / scene intent] --> Candidate[Isolated visual candidate]
+    Protected[Protected scene + cameras + gameplay] --> Candidate
+    Candidate --> Frames[Fixed-camera UE captures]
+    Candidate --> Technical[Save/reload + regression + bounded route checks]
+    Frames --> Retain{Retention gate}
+    Technical --> Retain
+    Retain -->|clear| Stable[Stable visual source]
+    Retain -->|miss| History[Rejected / partial evidence]
+    Stable --> Human[Human Art review]
 ```
 
-## Boardwalk / dock
+## 2. Current stable source: G004
 
-![Existing boardwalk and dock scene detail](../media/boardwalk-dock.png)
+The retained G004 pass improved the foreground boardwalk gesture, compact station and secondary service dock while preserving fixed protected cameras and protected assets.
 
-截图展示空间连接与视觉层，不仅凭画面推断 capsule clearance 或 navigation 已在所有场景通过。
+Recorded evidence includes:
+- 7/7 bounded Character feasibility PASS;
+- save/reload PASS;
+- protected regression PASS;
+- boardwalk relation, water negative space, building cluster, secondary service dock and structural language PASS;
+- island silhouette, rock stepping and slope plausibility still PARTIAL;
+- Human Art still PENDING.
 
-## Route view
+The stable-source decision is important: later geometry can be visually interesting and still be rejected.
 
-![Recorded scene route view, not a continuous gameplay recording](../media/route-view.png)
+## 3. Candidate isolation and protected-regression logic
 
-该图是路线视角截图，不是实玩视频。既有 First Art Pass 阶段记录了实际 ACharacter + CharacterMovement 遍历：目标到达、5 个有序 trigger、该次运行中未记录 stuck / fall / capsule block / slope / step / ground gap / nav break。它是特定历史路线结果，不是当前每一地图或性能的保证。
+Later G006–G011 work used isolated candidate maps / assets and explicit “do not promote” outcomes when visual thresholds were missed.
 
-静态 geometry sampling、core/mock validator 和真实角色运动属于不同证据层。保留失败基线，明确后续实际遍历的范围；不能通过更改报告来制造通过。
+Examples:
+- G006: stronger layered geology, but coast naturalism / building interface insufficient → rejected as stable replacement.
+- G009: localized sculpting improved some regions, but the broad smooth incline / oval island read persisted → rejected.
+- G010: stronger cluster density and layering, but integration and platform debt remained → PARTIAL / not retained.
+- G011: stronger settlement asymmetry, mass variation and tower grounding, but overall massing, island silhouette, building-terrain integration and access logic remained PARTIAL → not retained.
 
-## 媒体归属
+This is a technical-art validation feature, not just project bookkeeping: the pipeline preserves failed visual hypotheses instead of letting “latest” overwrite “best verified.”
 
-本次四张图均是项目自己的 UE 渲染截图。现有资产观察与 First Art Pass 生成方法表明被展示的模型来自 Engine BasicShapes 和项目自定义结构/常量材质；不发布源 mesh、engine package 或课程截图。
+## 4. Visual / collision separation
 
-Unreal Engine 是 Epic Games 的技术与商标；相关 Engine 内容不获本仓库重新授权。参见 [Epic Unreal Engine EULA](https://www.unrealengine.com/eula/unreal) 的 rendered-output / Non-Engine Products 说明。本仓库没有为第三方内容赋予新的开源许可。
+Visual candidate components can remain **NoCollision** while the inherited gameplay surface, trigger logic and protected structures stay separate. This lets environment iteration move faster without automatically turning decorative geology or architecture into gameplay blockers.
+
+That separation also means:
+- analytical ground overlap is not a gameplay PASS;
+- nominal route width is not full capsule-clearance proof;
+- a Character test is not a Human Art PASS;
+- fixed-camera image review is not production promotion.
+
+## 5. Development-history media
+
+The public repository currently contains older First Art Pass images:
+
+![Greybox versus First Art Pass](../media/greybox-comparison.png)
+
+![Boardwalk / dock — historical scene detail](../media/boardwalk-dock.png)
+
+![Route view — historical scene capture](../media/route-view.png)
+
+These remain useful for showing the earlier visual/gameplay separation work, but they are no longer labeled as Current State.
+
+## 6. Current media gap
+
+Current project evidence records newer G004 fixed-camera HERO / C027 / OVERVIEW captures and later G011 review/contact-sheet captures. They were not added in this sync because the connected environment could verify their report paths and hashes but could not retrieve the original image bytes for a fresh publication gate.
+
+No AI-generated substitute is used.
+
+## 7. Public repository boundary
+
+The showcase repository intentionally excludes:
+- complete UE project;
+- Saved / Intermediate / DDC / Build;
+- third-party course assets;
+- unverified-license source assets;
+- agent logs;
+- private machine paths;
+- credentials.
+
+The public repo is a review surface, not the canonical development store.

@@ -56,6 +56,15 @@ That result must not be over-read:
 
 The new G012 visual terrain, visual stairs, and architecture are not certified as production gameplay geometry.
 
+## Known limits of the evidence itself
+
+Recorded here so a retained verdict is not read as "everything is proven":
+
+- Save / reload evidence compares the **actor ledger** (3157 actors, zero unexpected diffs, camera / lighting / collision / transform equality against the authored state). It is not a substitute for visual or gameplay acceptance.
+- `R81_DRIFT_STATUS = UNATTRIBUTED_EXTERNAL_WRITE` was recorded on 2026-10-01, with canonical promotion in `BLOCKED_PENDING_DRIFT_RECONCILIATION`. It is still open and has not been cleaned up.
+- The protected camera registry is pinned to a package hash captured on 2026-09-25, before that drift. It certifies camera identity and framing, not the current canonical package state.
+- G012 still declares 6 NULL route samples on a pile-supported service span, and building-terrain contact is sampled locally rather than swept across every footprint.
+
 ## Still WIP
 
 - Human Art review of G012

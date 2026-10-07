@@ -28,19 +28,40 @@ WorldFoundation → A2/A2.1 → retained G004 convergence → controlled geology
 
 ## Visual curation
 
-Hero:
-- `media/current-c027-g012.jpg`
+First screen:
+- `media/current-c027-g012.jpg` — G012 from fixed `ArtTargetCamera_C027`
 
 Gallery:
-- `media/settlement-detail-g012.jpg`
-- `media/progress-g010-g011-g012.jpg`
+- `media/settlement-detail-g012.jpg` — G012 from fixed HERO camera
+- `media/stable-source-g004.jpg` — G004 from the same HERO camera (source provenance, for comparison)
+- `media/progress-g010-g011-g012.jpg` — identical protected poses across G010 / G011 / G012
 
-Older greybox / First Art Pass media remains Development History only.
+Development history (collapsed on the page, not current state):
+- `media/greybox-comparison.jpg`
+- `media/history-first-art-pass.jpg`
+- `media/history-route-view.jpg`
+- `media/history-boardwalk-detail.jpg`
 
-Published-media SHA256:
-- current-c027-g012.jpg — `605e7f1080a8565b01c428c36354e1c4a039bf5fe5d51f9851359be83e3ecf69`
-- settlement-detail-g012.jpg — `8a47a9cc7e2fb0201c6443e97ef8d1bd6e3d8ca965b641b72a59a2c791520d84`
-- progress-g010-g011-g012.jpg — `4e82e0b2cc8dbb2eaf0f1af6518203007bc820da6f301bbf471cf7c76eb69854`
+Published-media SHA256 (this revision):
+- current-c027-g012.jpg — `4dcdbc539d5c6417ce63d802ba2e1087d94081e9314b61a9f1ff20bf8996aa52`
+- settlement-detail-g012.jpg — `261bf216040b527a022290bb5a1f86f4e54356923b7146d33ba8ede5b9b88407`
+- stable-source-g004.jpg — `3a6e9d913359d3d73e1259d86263c51b0dad591aeaab2ebc7f156ec6718dcfc8`
+- progress-g010-g011-g012.jpg — `27a7304ae6e10e394f8407d9473ed7ced578ecbdc7790aef9a0c96cda477402e`
+- greybox-comparison.jpg — `b22fbc7d923bfada00c1dfc7db80f1004121611e4475f2651e236048e3469a84`
+- history-first-art-pass.jpg — `39ab818cac9dc12b0120955fa475fa4010f5d0fa62522841449a73752ae614a3`
+- history-route-view.jpg — `4ef716dcd313ba8004e4f6158706362b5f350b175e95164a31f5b4a8c313e41a`
+- history-boardwalk-detail.jpg — `41430c59d0d98a99b7057873e0d7888bfa348c64329a8f979ea7bc3764afc922`
+
+## Media integrity correction
+
+The revision before this one published two files under image filenames that did not contain image
+bytes, and one hero image at a reduced resolution. They rendered as broken or soft images on the
+public page. Every media file listed above was therefore rebuilt from the governed evidence
+directory, resized with a high-quality filter, re-encoded as progressive JPEG, and verified by
+magic bytes plus a decoder pass before commit. File names were kept stable so existing links stay
+valid; the SHA256 table above replaces the earlier one.
+
+Total public media after rebuild: 8 files, 475 KB, replacing 8 files, 12.1 MB.
 
 These images come from real project captures supplied for G012 review. No AI-generated image is presented as UE output; the external concept image is not included in the new public media set.
 

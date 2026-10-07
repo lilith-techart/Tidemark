@@ -1,11 +1,27 @@
-# Tidemark
+<h1 align="center">Tidemark</h1>
 
-**Unreal Engine 5 / Environment Art / Technical Art**  
-A reference-driven lighthouse-island environment study built around controlled visual iteration, modular scene structure, and evidence-backed validation.
+<p align="center">
+  <strong>Unreal Engine 5 · Environment Art · Technical Art</strong><br>
+  A reference-driven lighthouse-island environment study built around controlled visual iteration, modular scene structure, and evidence-backed validation.
+</p>
 
-**Current status — Integrated visual blockout. G012 is retained by technical self-audit; Human Art review is still pending. No canonical promotion has been performed.**
+<p align="center">
+  <img src="https://img.shields.io/badge/Unreal_Engine-5.6.1-0E1128?style=flat-square&logo=unrealengine&logoColor=white" alt="Unreal Engine 5.6.1">
+  <img src="https://img.shields.io/badge/Technical_Art-Environment-2F6F8F?style=flat-square" alt="Technical Art">
+  <img src="https://img.shields.io/badge/Status-Human_Art_Pending-E0A126?style=flat-square" alt="Human Art review pending">
+  <img src="https://img.shields.io/badge/Lifecycle-WIP-6F42C1?style=flat-square" alt="Work in progress">
+</p>
 
-![Tidemark G012 current C027 view](media/current-c027-g012.jpg)
+<p align="center">
+  <sub><b>Current status — Integrated visual blockout. G012 is retained by technical self-audit; Human Art review is still pending. No canonical promotion has been performed.</b></sub>
+</p>
+
+<p align="center">
+  <img src="media/current-c027-g012.jpg" width="920" alt="Tidemark G012 retained candidate, fixed C027 camera engine capture">
+  <br>
+  <sub><b>G012 — fixed <code>ArtTargetCamera_C027</code> capture · retained candidate blockout · Human Art review PENDING</b><br>
+  Six settlement volumes, tower and approach dock inside one protected frame. The grey rock and flat water are deliberate blockout material, not final art.</sub>
+</p>
 
 ## Current Build
 
@@ -19,15 +35,26 @@ The package lineage is intentionally conservative: **G004 remains the UE source 
 
 ## Visual Gallery
 
-### Current retained candidate — G012
-
-![G012 settlement detail](media/settlement-detail-g012.jpg)
+<table>
+<tr>
+<td width="50%">
+<img src="media/settlement-detail-g012.jpg" width="100%"><br>
+<sub><b>G012 — fixed HERO camera.</b> The same settlement from the second protected primary view: five room identities read independently, and Station01 is no longer lost inside the tower silhouette.</sub>
+</td>
+<td width="50%">
+<img src="media/stable-source-g004.jpg" width="100%"><br>
+<sub><b>G004 — same HERO camera, UE source provenance.</b> The stable source measured against, so "retained" is not a bare assertion: settlement density and shore layering are what changed; tower transform and water negative space did not.</sub>
+</td>
+</tr>
+</table>
 
 ### Recent convergence — G010 → G011 → G012
 
-![Tidemark G010 G011 G012 C027 progression](media/progress-g010-g011-g012.jpg)
+<p align="center">
+<img src="media/progress-g010-g011-g012.jpg" width="920" alt="Tidemark G010 G011 G012 C027 progression, identical camera poses">
+</p>
 
-The comparison shows the recent integrated-settlement phase: G010 restored visible density, G011 improved asymmetry / grounding / platform relationships, and G012 combines those lessons into the first candidate that clears the supplied technical retention gate.
+The comparison shows the recent integrated-settlement phase: G010 restored visible density, G011 improved asymmetry / grounding / platform relationships, and G012 combines those lessons into the first candidate that clears the supplied technical retention gate. All three panels use identical protected camera poses; G010 and G011 are **not retained**, and are shown as evidence rather than as current state.
 
 ## Technical Art / Environment Work
 
@@ -41,7 +68,7 @@ Implemented and evidenced in the current project:
 - Building / terrain interface auditing: foundation contact, entrance → landing → stair/path → yard relationships.
 - Boardwalk / dock / shoreline composition kept independent from visual terrain experiments.
 - Real ACharacter regression on the inherited protected gameplay surface.
-- Save / reload, package hashing, evidence manifests, and fail-closed production guards.
+- Save / reload with a fresh-process actor-ledger regression (3157 actors, zero unexpected diffs), package hashing, evidence manifests, and fail-closed production guards.
 
 Important evidence boundary: the G012 Character regression validates the **inherited G004 gameplay collision only**. It does **not** certify the new visual terrain or new visual stairs as walkable production geometry.
 
@@ -49,7 +76,7 @@ Important evidence boundary: the G012 Character regression validates the **inher
 
 ### Early greybox / First Art Pass
 
-![Greybox versus First Art Pass](media/greybox-comparison.png)
+![Greybox versus First Art Pass](media/greybox-comparison.jpg)
 
 The original public showcase stopped around the first visual pass. That material is now historical progress evidence rather than the project’s current state.
 
@@ -60,6 +87,30 @@ Subsequent work rebuilt the environment logic around a more plausible island / s
 ### Integrated settlement phase
 
 G010–G012 shifted the problem from “terrain-only convergence” to **architecture + geology + circulation as one composition**. G012 is the first retained candidate of this phase.
+
+<details>
+<summary><b>Development history — earlier captures (not current state)</b></summary>
+
+<table>
+<tr>
+<td width="33%">
+<img src="media/history-first-art-pass.jpg" width="100%"><br>
+<sub><b>First Art Pass.</b> The capture originally used for public review. Historical evidence only.</sub>
+</td>
+<td width="33%">
+<img src="media/history-route-view.jpg" width="100%"><br>
+<sub><b>Route view.</b> Character-traversal check on the protected gameplay surface.</sub>
+</td>
+<td width="33%">
+<img src="media/history-boardwalk-detail.jpg" width="100%"><br>
+<sub><b>Boardwalk detail.</b> The approach composition later kept stable across candidates.</sub>
+</td>
+</tr>
+</table>
+
+These images are archived project evidence. None of them describes the current retained candidate, and they are kept out of the first screen on purpose.
+
+</details>
 
 ## Current Focus
 

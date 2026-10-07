@@ -53,7 +53,7 @@ Different checks answer different questions:
 | Fixed-camera captures | visual state from governed viewpoints | Human Art acceptance |
 | Geometry / contact audit | local foundations, route centers, intersections | full gameplay walkability |
 | Protected-content hashes | protected source assets did not drift | visual quality |
-| Save / reload checks | candidate persists correctly | production approval |
+| Save / reload + fresh-process actor ledger | every actor, transform, material, collision, camera and light reloads identically | visual quality, or that per-footprint physical sweeps were run |
 | ACharacter regression | inherited gameplay route remains viable | new visual terrain is walkable |
 | Human review | whether the composition should advance | automatic promotion |
 

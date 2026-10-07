@@ -1,91 +1,70 @@
-# Tidemark — 技术拆解
+# Tidemark — Technical Overview
 
-## 1. Separate authorities: visual, gameplay, review
+## Environment iteration model
 
-Tidemark deliberately separates three questions:
+Tidemark separates four concerns that are often mixed together during environment production:
 
-1. **Does the scene read closer to the intended environment?**
-2. **Can the bounded route / character test still work?**
-3. **Has a human accepted the visual result?**
-
-A newer candidate does not become the current build merely because it rendered successfully.
+1. **Reference / composition intent**
+2. **Replaceable visual layer**
+3. **Protected gameplay / collision layer**
+4. **Validation and human review**
 
 ```mermaid
 flowchart TD
-    Intent[Reference / scene intent] --> Candidate[Isolated visual candidate]
-    Protected[Protected scene + cameras + gameplay] --> Candidate
-    Candidate --> Frames[Fixed-camera UE captures]
-    Candidate --> Technical[Save/reload + regression + bounded route checks]
-    Frames --> Retain{Retention gate}
-    Technical --> Retain
-    Retain -->|clear| Stable[Stable visual source]
-    Retain -->|miss| History[Rejected / partial evidence]
-    Stable --> Human[Human Art review]
+    Ref[Reference / composition intent] --> Visual[Candidate visual layer]
+    Ref --> Review[Fixed-camera art review]
+    Visual --> Interface[Terrain / building / circulation interface audit]
+    Visual --> Review
+    Gameplay[Protected gameplay + collision] --> Character[Bounded ACharacter regression]
+    Character --> Evidence[Structured evidence]
+    Interface --> Evidence
+    Review --> Human[Human Art decision]
+    Evidence --> Human
+    Human -->|Accept| Freeze[Layout freeze / next production stage]
+    Human -->|Reject| Iterate[Candidate-only iteration]
+    Iterate --> Visual
 ```
 
-## 2. Current stable source: G004
+## Current retained candidate: G012
 
-The retained G004 pass improved the foreground boardwalk gesture, compact station and secondary service dock while preserving fixed protected cameras and protected assets.
+The latest retained candidate focuses on **visible settlement density and front-apron closure**.
 
-Recorded evidence includes:
-- 7/7 bounded Character feasibility PASS;
-- save/reload PASS;
-- protected regression PASS;
-- boardwalk relation, water negative space, building cluster, secondary service dock and structural language PASS;
-- island silhouette, rock stepping and slope plausibility still PARTIAL;
-- Human Art still PENDING.
+Instead of adding many new rooms, the pass redistributes the same six primary room identities and improves how they read from the governed cameras. The current blockout establishes:
 
-The stable-source decision is important: later geometry can be visually interesting and still be rejected.
+- asymmetric upper / mid / lower settlement bands
+- improved tower support and grounding
+- a clearer shore → lower room → stair / connector → yard sequence
+- stronger front-slope occupation
+- preserved boardwalk leading line and water gap
+- unchanged protected cameras and lighting
 
-## 3. Candidate isolation and protected-regression logic
+## Visual / collision separation
 
-Later G006–G011 work used isolated candidate maps / assets and explicit “do not promote” outcomes when visual thresholds were missed.
+The G012 visual layer remains **NoCollision** where appropriate and is intentionally decoupled from the gameplay surface.
 
-Examples:
-- G006: stronger layered geology, but coast naturalism / building interface insufficient → rejected as stable replacement.
-- G009: localized sculpting improved some regions, but the broad smooth incline / oval island read persisted → rejected.
-- G010: stronger cluster density and layering, but integration and platform debt remained → PARTIAL / not retained.
-- G011: stronger settlement asymmetry, mass variation and tower grounding, but overall massing, island silhouette, building-terrain integration and access logic remained PARTIAL → not retained.
+The real Character regression uses the inherited G004 gameplay floors. This proves the protected gameplay route did not regress during the candidate pass; it does not prove the new visual terrain is directly walkable.
 
-This is a technical-art validation feature, not just project bookkeeping: the pipeline preserves failed visual hypotheses instead of letting “latest” overwrite “best verified.”
+## Validation layers
 
-## 4. Visual / collision separation
+Different checks answer different questions:
 
-Visual candidate components can remain **NoCollision** while the inherited gameplay surface, trigger logic and protected structures stay separate. This lets environment iteration move faster without automatically turning decorative geology or architecture into gameplay blockers.
+| Evidence layer | What it proves | What it does not prove |
+| --- | --- | --- |
+| Fixed-camera captures | visual state from governed viewpoints | Human Art acceptance |
+| Geometry / contact audit | local foundations, route centers, intersections | full gameplay walkability |
+| Protected-content hashes | protected source assets did not drift | visual quality |
+| Save / reload checks | candidate persists correctly | production approval |
+| ACharacter regression | inherited gameplay route remains viable | new visual terrain is walkable |
+| Human review | whether the composition should advance | automatic promotion |
 
-That separation also means:
-- analytical ground overlap is not a gameplay PASS;
-- nominal route width is not full capsule-clearance proof;
-- a Character test is not a Human Art PASS;
-- fixed-camera image review is not production promotion.
+## Current G012 boundaries
 
-## 5. Development-history media
+G012 is **retained**, but:
 
-The public repository currently contains older First Art Pass images:
+- Human Art = PENDING
+- canonical promotion = absent
+- production gameplay approval = false
+- final terrain naturalism = not passed
+- final materials / vegetation / architecture = not complete
 
-![Greybox versus First Art Pass](../media/greybox-comparison.png)
-
-![Boardwalk / dock — historical scene detail](../media/boardwalk-dock.png)
-
-![Route view — historical scene capture](../media/route-view.png)
-
-These remain useful for showing the earlier visual/gameplay separation work, but they are no longer labeled as Current State.
-
-## 6. Current media gap
-
-Current project evidence records newer G004 fixed-camera HERO / C027 / OVERVIEW captures and later G011 review/contact-sheet captures. They were not added in this sync because the connected environment could verify their report paths and hashes but could not retrieve the original image bytes for a fresh publication gate.
-
-No AI-generated substitute is used.
-
-## 7. Public repository boundary
-
-The showcase repository intentionally excludes:
-- complete UE project;
-- Saved / Intermediate / DDC / Build;
-- third-party course assets;
-- unverified-license source assets;
-- agent logs;
-- private machine paths;
-- credentials.
-
-The public repo is a review surface, not the canonical development store.
+This distinction is deliberate: technical evidence can qualify a candidate for review, but it cannot self-authorize final art.

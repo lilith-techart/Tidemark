@@ -1,0 +1,150 @@
+{
+  "study": "G014-G016.1 actual DCC evidence",
+  "human_art": "PENDING",
+  "files": [
+    {
+      "file": "g014-three-island-proposals.jpg",
+      "sha256": "3bfebe1435852e40669923caa73690a6560af68f60b05ca1966f3e5a9e8d7da3",
+      "source_sha256": "b49c65b04aa44aaefdb013dd63f1f3769a2cabbbbad125fffce8b96038f209c4",
+      "source_pixels": [
+        1920,
+        1308
+      ],
+      "published_pixels": [
+        1920,
+        1308
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g015-section-comparison.jpg",
+      "sha256": "c6b60d0bacebc24a0bd7d07d2e84543aab1fe22d84585a6b8f69d804a9a33a6f",
+      "source_sha256": "81ec174457de3ca35429a2d5ea74a8f182ff2b8d8f0efd05ab107665341efcb7",
+      "source_pixels": [
+        1920,
+        1150
+      ],
+      "published_pixels": [
+        1920,
+        1150
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g015-retopology-review.jpg",
+      "sha256": "d74ba24803bc5d4fb0d4265d52c1cf4aba2032e6c69f3aaf7881da36d4b41540",
+      "source_sha256": "c1f9c0985bde573b0bc93e9990a1d272c25a4b73b726b8b047412db0aae198b4",
+      "source_pixels": [
+        1920,
+        1980
+      ],
+      "published_pixels": [
+        1920,
+        1980
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g016-rock-kit-overview.jpg",
+      "sha256": "51a321ce769bfd0ecf2ce425fe0e6b1f48688213a2b6fe12525d4ead194ae3d5",
+      "source_sha256": "b9d03e50cf13ea94063d3bd7c1f56f45a6657a4aed264df53c965460b310c45a",
+      "source_pixels": [
+        2940,
+        1590
+      ],
+      "published_pixels": [
+        2400,
+        1298
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g016-clay-iterations.jpg",
+      "sha256": "46f3bd9d5eaa0578f5de06427fba8989e531a39a6b1b541329e29f09cc36ac93",
+      "source_sha256": "cbc7faf28d14644d121a23560120c7229e0112ccd016f663797557183941382a",
+      "source_pixels": [
+        1920,
+        1566
+      ],
+      "published_pixels": [
+        1920,
+        1566
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g0161-cliff-before-after.jpg",
+      "sha256": "f71242b65bd4dc7b8b3e7bd85ba625a6a2d086942d704695e2254e8315dfb636",
+      "source_sha256": "1b4f08d77f47e9173f46addc3ab98d1a2ad88fb9b35efe70001229b1b7760b28",
+      "source_pixels": [
+        1280,
+        2780
+      ],
+      "published_pixels": [
+        1280,
+        2780
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g0161-shoulder-before-after.jpg",
+      "sha256": "f908fc05a583c9baa0adcd6dc32e36787d99179ee176e423f80bf36d91552a23",
+      "source_sha256": "8bc18e287b348cb500d4b793115b00099ca6723b4744e66d906b54b1c07ec001",
+      "source_pixels": [
+        1280,
+        2780
+      ],
+      "published_pixels": [
+        1280,
+        2780
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    },
+    {
+      "file": "g0161-final-review.jpg",
+      "sha256": "123fede11ffea1bf47214a8b8dfc259c90832255cad784fbbffc71bc63cdbd54",
+      "source_sha256": "39f2b71a0fa38d9b0839cfa5fac531a54727aefd2b2fa76fa8555528fc8fe1a3",
+      "source_pixels": [
+        1920,
+        950
+      ],
+      "published_pixels": [
+        1920,
+        950
+      ],
+      "provenance": "Actual project-authored Blender research renders; diagram headings preserved",
+      "processing": "Whole-image proportional downscale and JPEG compression only; no crop, AI or defect removal",
+      "rights": "Project-authored geometry and screenshot; external concept artwork, textures and third-party models excluded",
+      "status": "RESEARCH_ONLY_NOT_RETAINED",
+      "review_limits": "Same diagnostic camera only where original caption confirms; not UE protected-camera evidence"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "collection": "Tidemark real UE/Blender engineering process board JPGs",
+  "status": "local publish staging; not yet pushed",
+  "source": "actual local project evidence screenshots; layout and captions added without re-generating geometry",
+  "human_art": "PENDING",
+  "latest_retained_visual": "G012",
+  "rights": "project-owned screenshots; no external concept art",
+  "boards": [
+    {
+      "file": "Tidemark_Real_Cliff_Shoulder_02.jpg",
+      "bytes": 483592,
+      "width_px": 3200,
+      "height_px": 2200,
+      "sha256": "5ab810a790c0a771f3322f36a82f162eca7ebef4d037321b09663185412ca832"
+    },
+    {
+      "file": "Tidemark_Real_Engineering_Process_01.jpg",
+      "bytes": 464659,
+      "width_px": 3200,
+      "height_px": 2250,
+      "sha256": "4184bd7b3089f64b87cd9b2f5a7544471550e5e0c7c89b6f98e083572ea6e5c4"
+    },
+    {
+      "file": "Tidemark_Real_Geology_Validation_03.jpg",
+      "bytes": 420570,
+      "width_px": 3200,
+      "height_px": 2350,
+      "sha256": "5b8ab020c3622136847d091aca16f28d1b237152026f9035bb2209741e84943c"
+    }
+  ]
+}

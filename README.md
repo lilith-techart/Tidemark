@@ -23,6 +23,44 @@
   Six settlement volumes, tower and approach dock inside one protected frame. The grey rock and flat water are deliberate blockout material, not final art.</sub>
 </p>
 
+## Rock Form Research · Real Blender Work
+
+<p align="center">
+  <sub><b>Actual G014–G016.1 Blender clay / topology captures, carefully arranged for environment-art and technical-art portfolio review.</b><br>
+  These are real experiments, <b>not AI-generated model renders</b> and <b>not approved production assets</b>.</sub>
+</p>
+
+<p align="center">
+  <a href="docs/process/06-real-engineering-boards.md">
+    <img src="media/process/real-boards-20261009/Tidemark_Real_Cliff_Shoulder_02.jpg" width="940" alt="Actual Blender Cliff and Shoulder rock modeling studies with clay, wireframe, and before-after views in an editorial engineering board">
+  </a>
+  <br>
+  <sub><b>Cliff &amp; Shoulder — real modeling iterations.</b> Improved local recesses and fractures still left plate-like cliff sides and ramp-like shoulder silhouettes. The art-retention gate did not pass.</sub>
+</p>
+
+<table>
+<tr>
+<td width="50%">
+<a href="docs/process/06-real-engineering-boards.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Engineering_Process_01.jpg" width="100%" alt="Real UE and Blender research progression from G012 to G016.1"></a><br>
+<sub><b>Environment process.</b> G012 retained scene and subsequent coastal geology / rock form research.</sub>
+</td>
+<td width="50%">
+<a href="docs/process/06-real-engineering-boards.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Geology_Validation_03.jpg" width="100%" alt="Real Blender geological sections and topology comparisons"></a><br>
+<sub><b>Technical art evidence.</b> Clay geometry, cross-section and topology studies, with failures documented.</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="docs/process/06-real-engineering-boards.md"><b>See the real engineering process gallery →</b></a>
+  &nbsp;·&nbsp;
+  <a href="docs/process/05-real-blender-evidence-20261009.md">Original Blender screenshots →</a>
+</p>
+
+<sub><b>Research status:</b> G016.1 and G016.2 rock assets were not art-retained. G016.3 tested three primary-plane design directions, but none passed the pre-mesh design gate. No finished production rock kit is claimed. G012 remains the retained visual scene candidate; Human Art is PENDING.</sub>
+
+---
+
 ## Current Build
 
 The project has moved well beyond the old **“First Art Pass awaiting human review”** state.

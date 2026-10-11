@@ -1,0 +1,36 @@
+{
+  "title": "Tidemark WART002 real engineering and coastal research evidence",
+  "public_repo": "lilith-techart/Tidemark",
+  "date": "2026-10-11",
+  "rules": {
+    "all_photographs": "Actual Unreal Engine or Blender screenshots; no AI-generated engineering pixels",
+    "schematic": "Independent measured-data illustration; explicitly non-runtime",
+    "art_gate": "WART002 PARTIAL; G012 retained; Human Art PENDING"
+  },
+  "files": [
+    {
+      "name": "wart002-landing-before-after.jpg",
+      "sha256": "22334e57530e431bade0d4884f183a1eb511170609ba835feaa3045e42187929",
+      "source": "Exact crops of supplied genuine WART002 UE process capture, editorial labels and verified status only"
+    },
+    {
+      "name": "wart002-interfaces-validation.jpg",
+      "sha256": "8b73130bafffa612d7692b80dbec01252c24120c463189c7c6cea47410cc1230",
+      "source": "Actual WART002 UE close-up renders, editorial captions and actual candidate facts"
+    },
+    {
+      "name": "g0169-real-source-blender-contact.jpg",
+      "sha256": "a34b1619de465733bdead265bdd75921d4372c2ef28bc7283e7d57129b1e6104",
+      "source": "Real Blender source audit of Poly Haven Coastal Cliff 01; source asset license CC0; source not production-approved"
+    },
+    {
+      "name": "world-art-restart-ab-rejected.jpg",
+      "sha256": "531837b06a5d1571ca24809d94425dacedd384d00b0f2631d6fbdb45b49425c5",
+      "source": "Actual Blender G012 spatial-context A/B studies; both REJECTED, no UE implementation"
+    },
+    {
+      "name": "wart002-route-measurements.svg",
+      "source": "Authored data diagram, not a UE screenshot. 142cm gap, 150x120x14cm module, 3.8141 degree candidate pitch"
+    }
+  ]
+}

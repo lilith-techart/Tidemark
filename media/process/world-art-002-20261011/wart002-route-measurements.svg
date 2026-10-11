@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="WART002 measured landing interface and validation boundaries">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071923"/><stop offset="1" stop-color="#163b48"/></linearGradient><linearGradient id="sea" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#267f89"/><stop offset="1" stop-color="#123a4b"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect x="70" y="46" width="1460" height="3" rx="1" fill="#76ddc1"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="78" y="93" fill="#81ddc7" font-size="22" font-weight="bold" letter-spacing="3">TIDEMARK / ENVIRONMENT TECH ART</text>
+<text x="78" y="159" fill="#f0f6f3" font-size="57" font-weight="bold">LowerUtility Landing — Measured Interface</text>
+<text x="79" y="207" fill="#afc6c9" font-size="25">Source: WART002 real UE geometry / explicit save + fresh-process readback</text>
+<rect x="80" y="250" width="1438" height="430" rx="20" fill="#10313e" stroke="#345b66" stroke-width="2"/>
+<rect x="113" y="570" width="1374" height="84" fill="url(#sea)" opacity=".8"/>
+<g fill="#bd956c" stroke="#e4c297" stroke-width="3"><path d="M160 431H522V464H160Z"/><path d="M1030 372H1395V405H1030Z"/></g>
+<g fill="#d8a875" stroke="#f0c798" stroke-width="3"><path d="M509 435L1048 380L1048 409L509 462Z"/></g>
+<path d="M509 466V550M1030 412V549" stroke="#9a7357" stroke-width="15"/>
+<path d="M522 349H1030" stroke="#f1b878" stroke-width="3" stroke-dasharray="9 9"/>
+<path d="M522 339L522 360M1030 339L1030 360" stroke="#f1b878" stroke-width="3"/>
+<text x="641" y="330" fill="#f6bd7c" font-size="28" font-weight="bold">142 cm original edge gap</text>
+<text x="163" y="414" fill="#e7f4ee" font-size="24">Old boardwalk deck</text>
+<text x="1034" y="353" fill="#e7f4ee" font-size="24">LowerUtility landing</text>
+<text x="167" y="492" fill="#81ddc7" font-size="26" font-weight="bold">165 cm</text>
+<text x="1254" y="448" fill="#81ddc7" font-size="26" font-weight="bold">175 cm</text>
+<text x="625" y="505" fill="#f4e2cc" font-size="29" font-weight="bold">150 × 120 × 14 cm</text>
+<text x="642" y="538" fill="#d5e4e1" font-size="23">Candidate visual timber link</text>
+<text x="650" y="579" fill="#7ee0c7" font-size="23">3.814° reported pitch</text>
+<text x="170" y="627" fill="#b2ced1" font-size="20">NO production gameplay edits</text>
+<text x="1180" y="627" fill="#b2ced1" font-size="20">NOT TO SCALE</text>
+<rect x="80" y="708" width="700" height="117" rx="16" fill="#193e3f" stroke="#4b9a89"/>
+<rect x="800" y="708" width="718" height="117" rx="16" fill="#44362d" stroke="#a88061"/>
+<text x="107" y="749" fill="#88e2c6" font-size="26" font-weight="bold">VERIFIED</text>
+<text x="107" y="786" fill="#e9f4ee" font-size="23">UE fresh reload • inherited G004 Character route</text>
+<text x="829" y="749" fill="#f2c28f" font-size="26" font-weight="bold">NOT CERTIFIED</text>
+<text x="829" y="786" fill="#f3e7de" font-size="23">New NoCollision link • Human Art • gameplay handoff</text>
+<text x="82" y="864" fill="#a4c0c9" font-size="19">TECHNICAL SCHEMATIC, NOT A UE SCREENSHOT. Endpoint validation in WART002 governed report. G012 remains retained.</text>
+</g></svg>

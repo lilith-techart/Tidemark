@@ -23,6 +23,29 @@
   Six settlement volumes, tower and approach dock inside one protected frame. The grey rock and flat water are deliberate blockout material, not final art.</sub>
 </p>
 
+## Latest Environment Engineering · WART002
+
+**From wooden approach to settlement:** an isolated Unreal Engine 5.6.1 candidate resolves one **142 cm visual landing gap** using a measured **150 × 120 × 14 cm** timber link (**3.814°**). The work is a local design improvement, **not a new retained scene**: **G012 remains retained**, and Human Art is PENDING.
+
+<p align="center">
+  <a href="docs/process/07-world-art-002-real-ue-engineering.md">
+    <img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="940" alt="Actual Unreal Engine before-after: LowerUtility landing gap and new 150cm timber link; identical fixed C027 views, with measurement and validation distinctions">
+  </a>
+  <br>
+  <sub><b>Real Unreal Engine screenshots.</b> Before/after landing, fixed-camera composition and measured connection. New link is visual-only / NoCollision; the inherited Character test does not certify walking on the new connection.</sub>
+</p>
+
+<table>
+<tr>
+<td width="50%"><a href="docs/process/07-world-art-002-real-ue-engineering.md"><img src="media/process/world-art-002-20261011/wart002-interfaces-validation.jpg" width="100%" alt="Real UE Station01 foundation, timber interface and eye-height access diagnostics, with confirmed and unconfirmed technical gates"></a><br><sub><b>Interface validation.</b> Station01 selective support, boardwalk side and eye-height approach, plus explicit technical boundaries.</sub></td>
+<td width="50%"><a href="docs/process/07-world-art-002-real-ue-engineering.md"><img src="media/process/world-art-002-20261011/wart002-route-measurements.svg" width="100%" alt="Measured 142cm gap, 150cm timber connection, 165cm to 175cm deck elevation and new NoCollision limitation; technical diagram only"></a><br><sub><b>Measured spatial interface.</b> Engineering schematic based on real geometry/readback. This is a diagram, not an in-engine render.</sub></td>
+</tr>
+</table>
+
+**Engineering evidence:** 27 new isolated visual modules; fresh UE save/reload PASS; actual Character feasibility PASS on **inherited G004 floors only**; protected source/cameras/lighting unchanged; no canonical promotion. [Read the real technical-art case study →](docs/process/07-world-art-002-real-ue-engineering.md)
+
+---
+
 ## Rock Form Research · Real Blender Work
 
 <p align="center">

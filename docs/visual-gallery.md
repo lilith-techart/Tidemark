@@ -10,6 +10,24 @@
 
 > **Scope:** A curated gallery of **already public, genuine Tidemark project captures**. The screenshots and diagram boards below come from archived UE/Blender research; they do **not** imply final art approval, a universal Validator, or production promotion. New October audit results are summarized in the [portfolio context](#pipeline--validation-story), not presented as new engine captures.
 
+## New · Art Direction Research (2026-10-16)
+
+**Chosen art direction: C — fantasy concept composition × AAA real-time production.** The October Art Direction audit is complete, but detailed art lock and the ART-P1 massing choice still require human approval. No new UE or Blender artwork was produced in that audit.
+
+<p align="center">
+  <a href="../media/showcase/2026-10/tidemark-art-direction-gap-study.svg"><img src="../media/showcase/2026-10/tidemark-art-direction-gap-study.svg" width="1080" alt="New original technical-art research schematic illustrating lighthouse-settlement, roofs, coast-landing and atmosphere gaps" /></a>
+  <br><sub><b>Visual gap study — original infographic.</b> Derived from the October evidence-backed gap audit. Illustration is schematic, <b>NOT</b> an Unreal Engine capture or a reproduction of the governed reference image.</sub>
+</p>
+
+<p align="center">
+  <a href="../media/showcase/2026-10/tidemark-art-p1-massing-directions.svg"><img src="../media/showcase/2026-10/tidemark-art-p1-massing-directions.svg" width="1080" alt="New schematic showing proposed three hero massing design directions A B C" /></a>
+  <br><sub><b>Hero massing research directions — design diagram.</b> A: preserve &amp; integrate, B: derived lighthouse, C: integrated landmark. These are planning directions, <b>not completed 3D candidates</b> and not human-approved outcomes.</sub>
+</p>
+
+**Original local review materials:** `TIDEMARK_ART_DIRECTION_LOCK_001` supplies a 12-dimension comparison, Style Bible and composition proposal. The complete visual-gap board includes a governed concept image whose public distribution rights are currently unverified, so it is intentionally **not copied** to this public repository. G012 remains retained, R81 remains canonical/read-only, and Human Art remains pending.
+
+---
+
 ## 01 · Retained visual baseline — G012
 
 <p align="center">
@@ -81,7 +99,7 @@ The October engineering audit (`TIDEMARK_PIPELINE_PORTFOLIO_AUDIT_001`, 2026-10-
 | Camera captures, logs and hash manifests | Valid assets and evidence do not imply Renderer or art PASS |
 | Protected candidate isolation and rejection | WART001 / WSR002 / WFD001 / WCB001 are research failures/partials, **not** approved art |
 
-**Next engineering work (proposed, not yet implemented):** Scene Comparator hardening → negative fixtures → offline evidence report. Visual design research and production approval remain separate.
+**Engineering status update:** Scene Comparator offline v1 has passed bounded synthetic/negative tests (53/53 expected outcomes). The real UE Ledger Bridge is **PARTIAL**: five ActorGuids survived one isolated save/reload, but component identity and non-primitive collision semantics blocked strict integration (INVALID / exit 2). Evidence Reporter and a production UE validator are **not** implemented. Visual design research and production approval remain separate.
 
 ### Review links
 

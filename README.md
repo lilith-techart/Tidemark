@@ -57,6 +57,20 @@
 
 ---
 
+### October Art Direction · Fantasy Art × AAA Real-Time Production
+
+<p align="center">
+  <a href="docs/visual-gallery.md"><img src="media/showcase/2026-10/tidemark-art-direction-gap-study.svg" width="940" alt="Art direction visual gap infographic: illustrative research, not an in-engine screenshot" /></a><br>
+  <sub><b>2026-10-16: Art Direction audit completed.</b> An evidence-grounded design infographic, not a new UE render. Original governed concept is intentionally omitted pending publication-rights review.</sub>
+</p>
+
+<table>
+<tr>
+<td width="55%"><a href="docs/visual-gallery.md"><img src="media/showcase/2026-10/tidemark-art-p1-massing-directions.svg" width="100%" alt="Conceptual hero-massing paths A B C, not 3D deliverables" /></a></td>
+<td valign="middle"><b>ART-P1 · Design gate</b><br><sub>Preserve & integrate / derived lighthouse / integrated landmark. These are research directions only. Human Art selection PENDING; no new production scene or art candidate was created.</sub><br><br><a href="docs/visual-gallery.md">View updated research gallery →</a></td>
+</tr>
+</table>
+
 ## Latest Environment Engineering · WART002
 
 **From wooden approach to settlement:** an isolated Unreal Engine 5.6.1 candidate resolves one **142 cm visual landing gap** using a measured **150 × 120 × 14 cm** timber link (**3.814°**). The work is a local design improvement, **not a new retained scene**: **G012 remains retained**, and Human Art is PENDING.

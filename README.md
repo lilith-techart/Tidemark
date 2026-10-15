@@ -1,8 +1,8 @@
 <h1 align="center">Tidemark</h1>
 
 <p align="center">
-  <strong>Unreal Engine 5 · Environment Art · Technical Art</strong><br>
-  A reference-driven lighthouse-island environment study built around controlled visual iteration, modular scene structure, and evidence-backed validation.
+  <strong>UE5 Environment Production Pipeline &amp; Validation System</strong><br>
+  Real Unreal Engine / Blender environment workflows: asset integration, scene regression, visual evidence and fail-closed candidate review.
 </p>
 
 <p align="center">
@@ -22,6 +22,26 @@
   <sub><b>G012 — fixed <code>ArtTargetCamera_C027</code> capture · retained candidate blockout · Human Art review PENDING</b><br>
   Six settlement volumes, tower and approach dock inside one protected frame. The grey rock and flat water are deliberate blockout material, not final art.</sub>
 </p>
+
+## Visual Gallery · Real Captures & Technical Breakdowns
+
+<p align="center">
+  <a href="docs/visual-gallery.md"><img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="940" alt="Tidemark real Unreal Engine visual integration and engineering evidence" /></a>
+  <br><sub><b>Real UE integration evidence</b> · candidate-only improvements, actual measured interfaces, no gameplay certification for new visual-only components.</sub>
+</p>
+
+<table>
+<tr>
+<td width="50%"><a href="docs/visual-gallery.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Cliff_Shoulder_02.jpg" width="100%" alt="Real Blender geometry and art research board"></a><br><sub>Real Blender sculpt / topology research · art NOT retained</sub></td>
+<td width="50%"><a href="docs/visual-gallery.md"><img src="media/process/world-art-002-20261011/wart002-interfaces-validation.jpg" width="100%" alt="Unreal Engine engineering interface validation board"></a><br><sub>Scene engineering, interface checks &amp; explicit validation boundaries</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="docs/visual-gallery.md"><b>Explore the full visual & technical art gallery →</b></a></p>
+
+**Pipeline portfolio audit (2026-10-15):** `PIPELINE_READINESS = PARTIAL`. Existing scripts demonstrate DCC/FBX/UE integration, scene persistence and evidence capture; **no universal Validator or completed environment art is claimed**. Next proposed technical milestone: harden the offline Scene Comparator with negative tests, then produce evidence reports.
+
+---
 
 ## Latest Environment Engineering · WART002
 

@@ -25,6 +25,20 @@
 
 ## Visual Gallery · Real Captures & Technical Breakdowns
 
+### October additions · environment research and pipeline evidence
+
+<p align="center">
+  <a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/wart001-hero-research.jpg" width="940" alt="Actual Unreal Engine World Art Reconstruction 001 HERO frame, partial research candidate, not retained" /></a>
+  <br><sub><b>World Art Reconstruction 001 · real UE research frame.</b> A local coast experiment, not an approved art result. The adverse view and rejection boundary are included in the gallery. <b>G012 remains retained; Human Art is PENDING.</b></sub>
+</p>
+
+<table>
+<tr>
+<td width="50%"><a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/pipeline-capability-truth-map.jpg" width="100%" alt="Static technical audit capability map, not a live Validator console"></a><br><sub>Evidence-backed capability audit · implemented, limited and missing capabilities kept separate.</sub></td>
+<td width="50%"><a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/portfolio-page-layout-proposal.jpg" width="100%" alt="Proposed portfolio page layout using an archived UE capture; design draft, not software interface"></a><br><sub>Portfolio layout proposal · clearly marked design draft, not a working Validator UI.</sub></td>
+</tr>
+</table>
+
 <p align="center">
   <a href="docs/visual-gallery.md"><img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="940" alt="Tidemark real Unreal Engine visual integration and engineering evidence" /></a>
   <br><sub><b>Real UE integration evidence</b> · candidate-only improvements, actual measured interfaces, no gameplay certification for new visual-only components.</sub>

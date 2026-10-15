@@ -51,6 +51,24 @@
 </tr>
 </table>
 
+## 04 · October source-resolution additions
+
+These four additions were exported from original local evidence, **not enlarged from contact-sheet thumbnails**. Existing G012, WART002 and Blender boards above are reused rather than uploaded again. JPEG copies are metadata-cleaned; original research evidence is unchanged. [Publication manifest](../media/showcase/2026-10/MANIFEST.json).
+
+### World Art Reconstruction 001 — real UE, partial / not retained
+
+<p align="center"><img src="../media/showcase/2026-10/wart001-hero-research.jpg" width="960" alt="World Art Reconstruction 001 actual fixed HERO Unreal Engine capture, research only"><br><sub><b>HERO, 1280 × 720 source.</b> Local coast and settlement experiment. Visible changes did not resolve platform-like coast geometry. This is not the retained scene and not final environment art.</sub></p>
+
+<p align="center"><img src="../media/showcase/2026-10/wart001-adverse-research.jpg" width="960" alt="Actual adverse Unreal Engine view showing broad rear terrace and unresolved access geometry"><br><sub><b>Adverse view, 1280 × 720 source.</b> The broad rear terrace, hard coast cuts and crude access geometry explain why the candidate remained PARTIAL / not retained. Save/reload success did not override the art gate. G012 remains retained.</sub></p>
+
+### Pipeline audit — diagrams and design previews, not engine output
+
+<p align="center"><img src="../media/showcase/2026-10/pipeline-capability-truth-map.jpg" width="1080" alt="Pipeline audit capability map separating verified local capabilities from gaps"><br><sub><b>Technical audit diagram, 1920 × 1280 source.</b> The 102/0 count is a standalone synthetic-core test; 3,158 equal actor pairs refer to offline rechecking of archived observations. Neither is a new UE run or a Renderer repair.</sub></p>
+
+<p align="center"><img src="../media/showcase/2026-10/portfolio-page-layout-proposal.jpg" width="1080" alt="Design draft for a portfolio page using an archived Unreal Engine environment frame"><br><sub><b>Presentation design draft, 1920 × 1080 source.</b> An archived real UE frame paired with proposed pipeline messaging. This is a page-layout proposal, not a shipped tool interface or a new scene render.</sub></p>
+
+No unlicensed concept reference, private source package, machine path, account details or agent log is included. No finished rock kit, universal Validator or Human Art approval is claimed.
+
 ## Pipeline & validation story
 
 The October engineering audit (`TIDEMARK_PIPELINE_PORTFOLIO_AUDIT_001`, 2026-10-15) concluded **PIPELINE_READINESS = PARTIAL**: reusable evidence exists, but a unified environment validator has **not** been implemented.

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Environment visuals + technical art evidence",
+  "human_art": "PENDING",
+  "canonical_promotion": "NO",
+  "files": [
+    {
+      "file": "media/showcase/2026-10/wart001-hero-research.jpg",
+      "kind": "UE runtime",
+      "origin": "World Art Reconstruction 001 / fixed HERO",
+      "status": "PARTIAL; not retained; G012 remains retained",
+      "description": "Original 1280x720 engine capture; candidate geology study, not final art",
+      "source_sha256": "a6d96b736e35a7e03f9fef04b017d795c8f20eb8fc37cc18254988551053a7aa",
+      "public_sha256": "c8c0c898f85994e02213ad470ef844be496e2363261c1f94e1af2788b8864022",
+      "resolution": [
+        1280,
+        720
+      ],
+      "copyright_review": "Project-authored research/capture; inherited scene already public. No governed concept, downloaded scan, raw source or private log included.",
+      "privacy_review": "Visually inspected; no local paths/accounts/credentials; metadata stripped",
+      "original_modified": false
+    },
+    {
+      "file": "media/showcase/2026-10/wart001-adverse-research.jpg",
+      "kind": "UE runtime",
+      "origin": "World Art Reconstruction 001 / adverse view",
+      "status": "PARTIAL; visible back-terrace and access defects",
+      "description": "Original 1280x720 adverse frame retained to show why the art gate did not pass",
+      "source_sha256": "010aa1b183b9050a78b7429083d0419b39dd2383bd832d40e89a7c3ed0829a33",
+      "public_sha256": "5491f8d5c0c01a7e4a3950c901908120235aa483f27818a79e3f62d23ee776f9",
+      "resolution": [
+        1280,
+        720
+      ],
+      "copyright_review": "Project-authored research/capture; inherited scene already public. No governed concept, downloaded scan, raw source or private log included.",
+      "privacy_review": "Visually inspected; no local paths/accounts/credentials; metadata stripped",
+      "original_modified": false
+    },
+    {
+      "file": "media/showcase/2026-10/pipeline-capability-truth-map.jpg",
+      "kind": "Technical audit diagram",
+      "origin": "Pipeline Portfolio Audit 001",
+      "status": "PIPELINE_READINESS PARTIAL",
+      "description": "Static audit summary; no running Validator interface",
+      "source_sha256": "58e47ad3654619978ca536c696ebf314895b0ed5fdc351f8cf17fdbf33a6d3aa",
+      "public_sha256": "e1e08e1e05524273e9c11745b59888c9abaf2be86976913cf42f1af8b8e3687e",
+      "resolution": [
+        1920,
+        1280
+      ],
+      "copyright_review": "Project-authored research/capture; inherited scene already public. No governed concept, downloaded scan, raw source or private log included.",
+      "privacy_review": "Visually inspected; no local paths/accounts/credentials; metadata stripped",
+      "original_modified": false
+    },
+    {
+      "file": "media/showcase/2026-10/portfolio-page-layout-proposal.jpg",
+      "kind": "Design preview with archived UE frame",
+      "origin": "Pipeline Portfolio Audit 001 / page proposal",
+      "status": "DESIGN DRAFT; not software UI",
+      "description": "Layout proposal; embedded environment is a historical UE frame, not a new render",
+      "source_sha256": "7130860875a324c971aa0c54117a2d9f0ba566c18eb6f92090895d287a95b5de",
+      "public_sha256": "32ae1d1e05434c97a69f84f496570e75a1a356e78e3613ea5e848731e4d2ac38",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "copyright_review": "Project-authored research/capture; inherited scene already public. No governed concept, downloaded scan, raw source or private log included.",
+      "privacy_review": "Visually inspected; no local paths/accounts/credentials; metadata stripped",
+      "original_modified": false
+    }
+  ]
+}

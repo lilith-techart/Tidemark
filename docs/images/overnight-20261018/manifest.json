@@ -97,5 +97,16 @@
     "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
     "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
     "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "g012-hero.webp",
+    "original_sha256": "4dcdbc539d5c6417ce63d802ba2e1087d94081e9314b61a9f1ff20bf8996aa52",
+    "public_sha256": "9d8c45b640f459dfbd1bc4d4d540d52f8d67ceb489eb6f7beb298802625bee0d",
+    "width": 1280,
+    "height": 720,
+    "source": "Existing public repository media/current-c027-g012.jpg at base commit 74036b33cc5680b5d978211f8611c710044719bf",
+    "rights": "Reuse of existing task-authorized public UE capture; rendered output only",
+    "processing": "RGB/WebP conversion only; full original frame",
+    "status": "G012 retained visual blockout; Human Art PENDING"
   }
 ]

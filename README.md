@@ -28,9 +28,9 @@ Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低
 | R4 | 岸线、水线与连续岩核 | 独立研究 |
 | R5 Revision2 | 组合变化、保存与新进程重载、八机位 | Technical PASS / Art PARTIAL |
 
-[交互页面文件](docs/index.html) · [公开素材哈希与来源](docs/images/overnight-20261018/manifest.json)
+[交互作品集网站 ↗](https://lilith-techart.github.io/Tidemark/) · [页面源码](docs/index.html) · [公开素材哈希与来源](docs/images/overnight-20261018/manifest.json)
 
-> `docs/index.html` 提供响应式页面与 R1/R5 拖动对比。GitHub 文件页不执行 HTML；只有实际 Pages 部署验证后，才会提供上线入口。
+> GitHub Pages 提供响应式页面与 R1/R5 拖动对比；GitHub 文件页保留可审查的 HTML 源码。
 
 ## 02 / 保留不好看的角度
 

@@ -1,0 +1,101 @@
+[
+  {
+    "file": "r1-hero.webp",
+    "original_sha256": "f444547be30d46f78885670827137e0ece458e2d2f2564fe6afe5673a69095aa",
+    "public_sha256": "61345c7653aa6f45736aa5e7d7ae9f1dbede69e084b71cb69bfcf261479e3267",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R1_Diagnostic/reload/01_CB_MainHero.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-hero.webp",
+    "original_sha256": "c8b22de1943549f9517c71101bbf62ebc64342275d62bdfb99507ee8542602b3",
+    "public_sha256": "66bc9408d618867150df5654f9458781948bc676ed50d53392164333d84de7b3",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R5_Combined/Revision2/final_reload/01_CB_MainHero.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-back.webp",
+    "original_sha256": "222ada2847f853af2862e8c68b7f075f7aed84446b341f23e972063ffbd6b690",
+    "public_sha256": "e850f8a495332c060faa20480e82b6e315e4ea8cfcd99f8726f2aea772da45f6",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R5_Combined/Revision2/final_reload/03_CB_Back.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-side.webp",
+    "original_sha256": "81a40caafde21de6f8fc495273b896b21f0812e5ddbd5abc31bb480ff98fd248",
+    "public_sha256": "6001f3a8405999ed66a9a847ebfcc124ab39db944d0fe4d86b40516d028ebf27",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R5_Combined/Revision2/final_reload/05_CB_Right.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-eye.webp",
+    "original_sha256": "3a1c080b7e2b2c54dd8086f6274ef70cc31b0d73d4f796a0fcddbdeb86f2562a",
+    "public_sha256": "42d5bcba98028d6ad828e7e0174efc9d14a9dc4170491ba8105b7bb55a0f1e27",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R5_Combined/Revision2/final_reload/07_CB_EyeLevel.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-top.webp",
+    "original_sha256": "606d6ba83ef463836c89f72542f83d6e404f46e914f1228145e0a21fa20cc777",
+    "public_sha256": "d8660c9311cab086588da21e072eb100a61b9a0e393705a85dd59f683d95cd47",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/R5_Combined/Revision2/final_reload/06_CB_Top.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r5-eight-views.webp",
+    "original_sha256": "73116bed159bfaaa59943bf4a83700cb7d0885794a0df944192e1e01f128eb1f",
+    "public_sha256": "fdf74c1b812fbfdbb249369c249505e3f3ba8867cb83e91e74bfab531cd7042c",
+    "width": 3230,
+    "height": 1290,
+    "source": "B2 refinement003 / evidence/contact_sheets/BEST_CANDIDATE_8_CAMERA_BOARD.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "r1-r5-comparison.webp",
+    "original_sha256": "2bfc3bd9f036ec72648c798ec07761a533edbd308c7dbc6a1c6532b9ab8f1415",
+    "public_sha256": "0d4c7661982fe065868bcdad8540a57d7de2ccf559f1b6e13d1eb9df457b6f40",
+    "width": 1946,
+    "height": 2712,
+    "source": "B2 refinement003 / evidence/camera_comparisons/R1_VS_BEST.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  },
+  {
+    "file": "planning.webp",
+    "original_sha256": "2159844394502b9d88c9ebea3a4b0c60fbd54fc860fe17cde2bec69c95fa14bd",
+    "public_sha256": "42a4b678327c95b09e7f42d2bc7c9b9addba8e35bc93a97e5dfc53783ece82b9",
+    "width": 1600,
+    "height": 900,
+    "source": "B2 refinement003 / evidence/planning_overlays/FOUNDATION_AND_SETTLEMENT_PLANNING_BOARD.png",
+    "rights": "Task-authorized procedural geometry/rendered evidence; no external concept image or source model distributed",
+    "processing": "RGB/WebP conversion only; full frame; no geometry repaint",
+    "status": "Technical research / ART PARTIAL / Human pending"
+  }
+]

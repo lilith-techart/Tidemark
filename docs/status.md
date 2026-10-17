@@ -1,6 +1,16 @@
 # Tidemark — Current Status
 
-Updated: 2026-10-07.
+Updated: 2026-10-18.
+
+## Latest checkpoint — C+B / B2 research
+
+G012 remains the retained UE visual baseline; not canonical promotion. Separate R5 Revision2 rock-core research has historical independent reload and eight-camera evidence, with **Art PARTIAL / Human PENDING**. R5 six-building and TowerProxy composition has **not been generated**; resource gates remain blocking. This portfolio publication does not execute Blender or UE.
+
+HY3D coastal winch: **NOT SUBMITTED**. Local SDK/MCP integration and secure credential storage do not prove cloud generation, balance or billing configuration. No asset is shown as generated or game-ready.
+
+[Latest measured-method summary](process/08-cb-continuous-rock-research.md) · [Teacher brief](TIDEMARK_PORTFOLIO_TEACHER_BRIEF.md)
+
+The following sections preserve the historical G012 milestone, not a new art acceptance.
 
 ## Overall
 

@@ -1,267 +1,87 @@
-<h1 align="center">Tidemark</h1>
-
-<p align="center">
-  <strong>UE5 Environment Production Pipeline &amp; Validation System</strong><br>
-  Real Unreal Engine / Blender environment workflows: asset integration, scene regression, visual evidence and fail-closed candidate review.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Unreal_Engine-5.6.1-0E1128?style=flat-square&logo=unrealengine&logoColor=white" alt="Unreal Engine 5.6.1">
-  <img src="https://img.shields.io/badge/Technical_Art-Environment-2F6F8F?style=flat-square" alt="Technical Art">
-  <img src="https://img.shields.io/badge/Status-Human_Art_Pending-E0A126?style=flat-square" alt="Human Art review pending">
-  <img src="https://img.shields.io/badge/Lifecycle-WIP-6F42C1?style=flat-square" alt="Work in progress">
-</p>
-
-<p align="center">
-  <sub><b>Current status — Integrated visual blockout. G012 is retained by technical self-audit; Human Art review is still pending. No canonical promotion has been performed.</b></sub>
-</p>
-
-<p align="center">
-  <img src="media/current-c027-g012.jpg" width="920" alt="Tidemark G012 retained candidate, fixed C027 camera engine capture">
-  <br>
-  <sub><b>G012 — fixed <code>ArtTargetCamera_C027</code> capture · retained candidate blockout · Human Art review PENDING</b><br>
-  Six settlement volumes, tower and approach dock inside one protected frame. The grey rock and flat water are deliberate blockout material, not final art.</sub>
-</p>
-
-## Visual Gallery · Real Captures & Technical Breakdowns
-
-### October additions · environment research and pipeline evidence
-
-<p align="center">
-  <a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/wart001-hero-research.jpg" width="940" alt="Actual Unreal Engine World Art Reconstruction 001 HERO frame, partial research candidate, not retained" /></a>
-  <br><sub><b>World Art Reconstruction 001 · real UE research frame.</b> A local coast experiment, not an approved art result. The adverse view and rejection boundary are included in the gallery. <b>G012 remains retained; Human Art is PENDING.</b></sub>
-</p>
-
-<table>
-<tr>
-<td width="50%"><a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/pipeline-capability-truth-map.jpg" width="100%" alt="Static technical audit capability map, not a live Validator console"></a><br><sub>Evidence-backed capability audit · implemented, limited and missing capabilities kept separate.</sub></td>
-<td width="50%"><a href="docs/visual-gallery.md#04--october-source-resolution-additions"><img src="media/showcase/2026-10/portfolio-page-layout-proposal.jpg" width="100%" alt="Proposed portfolio page layout using an archived UE capture; design draft, not software interface"></a><br><sub>Portfolio layout proposal · clearly marked design draft, not a working Validator UI.</sub></td>
-</tr>
-</table>
-
-<p align="center">
-  <a href="docs/visual-gallery.md"><img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="940" alt="Tidemark real Unreal Engine visual integration and engineering evidence" /></a>
-  <br><sub><b>Real UE integration evidence</b> · candidate-only improvements, actual measured interfaces, no gameplay certification for new visual-only components.</sub>
-</p>
-
-<table>
-<tr>
-<td width="50%"><a href="docs/visual-gallery.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Cliff_Shoulder_02.jpg" width="100%" alt="Real Blender geometry and art research board"></a><br><sub>Real Blender sculpt / topology research · art NOT retained</sub></td>
-<td width="50%"><a href="docs/visual-gallery.md"><img src="media/process/world-art-002-20261011/wart002-interfaces-validation.jpg" width="100%" alt="Unreal Engine engineering interface validation board"></a><br><sub>Scene engineering, interface checks &amp; explicit validation boundaries</sub></td>
-</tr>
-</table>
-
-<p align="center"><a href="docs/visual-gallery.md"><b>Explore the full visual & technical art gallery →</b></a></p>
-
-**Pipeline portfolio audit (2026-10-15):** `PIPELINE_READINESS = PARTIAL`. Existing scripts demonstrate DCC/FBX/UE integration, scene persistence and evidence capture; **no universal Validator or completed environment art is claimed**. Next proposed technical milestone: harden the offline Scene Comparator with negative tests, then produce evidence reports.
-
----
-
-### October Art Direction · Fantasy Art × AAA Real-Time Production
-
-<p align="center">
-  <a href="docs/visual-gallery.md"><img src="media/showcase/2026-10/tidemark-art-direction-gap-study.svg" width="940" alt="Art direction visual gap infographic: illustrative research, not an in-engine screenshot" /></a><br>
-  <sub><b>2026-10-16: Art Direction audit completed.</b> An evidence-grounded design infographic, not a new UE render. Original governed concept is intentionally omitted pending publication-rights review.</sub>
-</p>
-
-<table>
-<tr>
-<td width="55%"><a href="docs/visual-gallery.md"><img src="media/showcase/2026-10/tidemark-art-p1-massing-directions.svg" width="100%" alt="Conceptual hero-massing paths A B C, not 3D deliverables" /></a></td>
-<td valign="middle"><b>ART-P1 · Design gate</b><br><sub>Preserve & integrate / derived lighthouse / integrated landmark. These are research directions only. Human Art selection PENDING; no new production scene or art candidate was created.</sub><br><br><a href="docs/visual-gallery.md">View updated research gallery →</a></td>
-</tr>
-</table>
-
-## Latest Environment Engineering · WART002
-
-**From wooden approach to settlement:** an isolated Unreal Engine 5.6.1 candidate resolves one **142 cm visual landing gap** using a measured **150 × 120 × 14 cm** timber link (**3.814°**). The work is a local design improvement, **not a new retained scene**: **G012 remains retained**, and Human Art is PENDING.
-
-<p align="center">
-  <a href="docs/process/07-world-art-002-real-ue-engineering.md">
-    <img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="940" alt="Actual Unreal Engine before-after: LowerUtility landing gap and new 150cm timber link; identical fixed C027 views, with measurement and validation distinctions">
-  </a>
-  <br>
-  <sub><b>Real Unreal Engine screenshots.</b> Before/after landing, fixed-camera composition and measured connection. New link is visual-only / NoCollision; the inherited Character test does not certify walking on the new connection.</sub>
-</p>
-
-<table>
-<tr>
-<td width="50%"><a href="docs/process/07-world-art-002-real-ue-engineering.md"><img src="media/process/world-art-002-20261011/wart002-interfaces-validation.jpg" width="100%" alt="Real UE Station01 foundation, timber interface and eye-height access diagnostics, with confirmed and unconfirmed technical gates"></a><br><sub><b>Interface validation.</b> Station01 selective support, boardwalk side and eye-height approach, plus explicit technical boundaries.</sub></td>
-<td width="50%"><a href="docs/process/07-world-art-002-real-ue-engineering.md"><img src="media/process/world-art-002-20261011/wart002-route-measurements.svg" width="100%" alt="Measured 142cm gap, 150cm timber connection, 165cm to 175cm deck elevation and new NoCollision limitation; technical diagram only"></a><br><sub><b>Measured spatial interface.</b> Engineering schematic based on real geometry/readback. This is a diagram, not an in-engine render.</sub></td>
-</tr>
-</table>
+<p align="center"><sub>ENVIRONMENT DESIGN × TECHNICAL ART / FIELD NOTES 01</sub></p>
+<h1 align="center">T I D E M A R K</h1>
+<p align="center"><b>Coastal Worlds, Measured.</b><br>岩核、海岸聚落与可验证的实时环境制作</p>
+<p align="center"><img src="media/current-c027-g012.jpg" width="1120" alt="Real Unreal Engine G012 fixed C027 capture: lighthouse, six settlement volumes, timber approach and blockout coast"></p>
+<p align="center"><sub><b>REAL UNREAL ENGINE 5.6.1 CAPTURE</b> · G012 retained visual blockout · Human Art PENDING<br>真实画面，不是最终环境美术；未 canonical promotion。</sub></p>
+<p align="center"><a href="docs/TIDEMARK_PORTFOLIO_TEACHER_BRIEF.md">三分钟项目介绍</a> &nbsp; / &nbsp; <a href="docs/process/08-cb-continuous-rock-research.md">最新岩核研究</a> &nbsp; / &nbsp; <a href="docs/visual-gallery.md">真实 UE / Blender 档案</a> &nbsp; / &nbsp; <a href="docs/status.md">当前状态</a></p>
 
-**Engineering evidence:** 27 new isolated visual modules; fresh UE save/reload PASS; actual Character feasibility PASS on **inherited G004 floors only**; protected source/cameras/lighting unchanged; no canonical promotion. [Read the real technical-art case study →](docs/process/07-world-art-002-real-ue-engineering.md)
+## 一座海岛，两种尺度的思考
 
----
+Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低层聚落、岩岸与木栈桥如何组成可信的海岛空间，同时建立可追踪的资产检查、保存重载、固定机位评审与保护回归流程。
 
-## Rock Form Research · Real Blender Work
+**美术目标：** 建筑依附岩岛，灯塔保持主导，栈桥形成前景引导线，保留水面留白。  
+**工程目标：** 让设计约束、真实几何、测试结果与人工审查之间的关系清晰可查。
 
-<p align="center">
-  <sub><b>Actual G014–G016.1 Blender clay / topology captures, carefully arranged for environment-art and technical-art portfolio review.</b><br>
-  These are real experiments, <b>not AI-generated model renders</b> and <b>not approved production assets</b>.</sub>
-</p>
+这不是已经完成的 AAA 环境，也不是完全自主制作成品的 AI 系统。Agent 辅助执行；工具产出证据；最终美术判断仍属于 Human Review。
 
-<p align="center">
-  <a href="docs/process/06-real-engineering-boards.md">
-    <img src="media/process/real-boards-20261009/Tidemark_Real_Cliff_Shoulder_02.jpg" width="940" alt="Actual Blender Cliff and Shoulder rock modeling studies with clay, wireframe, and before-after views in an editorial engineering board">
-  </a>
-  <br>
-  <sub><b>Cliff &amp; Shoulder — real modeling iterations.</b> Improved local recesses and fractures still left plate-like cliff sides and ramp-like shoulder silhouettes. The art-retention gate did not pass.</sub>
-</p>
+## 01 / 先定剪影，再谈细节
 
-<table>
-<tr>
-<td width="50%">
-<a href="docs/process/06-real-engineering-boards.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Engineering_Process_01.jpg" width="100%" alt="Real UE and Blender research progression from G012 to G016.1"></a><br>
-<sub><b>Environment process.</b> G012 retained scene and subsequent coastal geology / rock form research.</sub>
-</td>
-<td width="50%">
-<a href="docs/process/06-real-engineering-boards.md"><img src="media/process/real-boards-20261009/Tidemark_Real_Geology_Validation_03.jpg" width="100%" alt="Real Blender geological sections and topology comparisons"></a><br>
-<sub><b>Technical art evidence.</b> Clay geometry, cross-section and topology studies, with failures documented.</sub>
-</td>
-</tr>
-</table>
+![Real Blender R1 versus R5 comparison](docs/images/overnight-20261018/r1-r5-comparison.webp)
 
-<p align="center">
-  <a href="docs/process/06-real-engineering-boards.md"><b>See the real engineering process gallery →</b></a>
-  &nbsp;·&nbsp;
-  <a href="docs/process/05-real-blender-evidence-20261009.md">Original Blender screenshots →</a>
-</p>
+**C+B / B2 连续岩核研究。** 在七个规划区域、路线锚点与前低后高关系不变的前提下，分别研究基础岩肩、面流与岸线，再组合有效变化。不是靠增加面数判定自然度。
 
-<sub><b>Research status:</b> G016.1 and G016.2 rock assets were not art-retained. G016.3 tested three primary-plane design directions, but none passed the pre-mesh design gate. No finished production rock kit is claimed. G012 remains the retained visual scene candidate; Human Art is PENDING.</sub>
+| 阶段 | 实际研究 | 边界 |
+|---|---|---|
+| R1 | 定位大三角坡面、规则承载区与岸脚 | 诊断基线 |
+| R2 | 基础外侧非均匀岩肩 | Art PARTIAL |
+| R3 | 长边与面流调整 | 局部改善，不代表整体自然 |
+| R4 | 岸线、水线与连续岩核 | 独立研究 |
+| R5 Revision2 | 组合变化、保存与新进程重载、八机位 | Technical PASS / Art PARTIAL |
 
----
+[交互页面文件](docs/index.html) · [公开素材哈希与来源](docs/images/overnight-20261018/manifest.json)
 
-## Current Build
+> `docs/index.html` 提供响应式页面与 R1/R5 拖动对比。GitHub 文件页不执行 HTML；只有实际 Pages 部署验证后，才会提供上线入口。
 
-The project has moved well beyond the old **“First Art Pass awaiting human review”** state.
+## 02 / 保留不好看的角度
 
-The current retained visual candidate is **G012 — Visible Settlement Density & Front Apron Closure**. It keeps the established boardwalk / water composition while improving the lighthouse settlement as one integrated mass: stronger visible architecture density, asymmetric clustering, upper / mid / lower spatial reading, tower grounding, terrain contact, and shore-to-settlement access logic.
+![Eight actual Blender camera captures, including adverse views](docs/images/overnight-20261018/r5-eight-views.webp)
 
-Technical self-audit for G012 reached **STRONG_PARTIAL** on the major visual blockout gates, with **PASS** on boardwalk composition, water negative space, and protected-regression checks. Human Art acceptance remains pending.
+原八机位与不利视角一起保留：规则基础面、晶体状折面和水下闭合裙边仍可见，近处岩面也会遮挡原眼高机位。**问题没有被修图隐藏，R5 没有被宣称为美术通过。**
 
-The package lineage is intentionally conservative: **G004 remains the UE source provenance**, while G012 is a retained candidate blockout rather than a canonical replacement.
+<table><tr><td width="50%"><img src="docs/images/overnight-20261018/r5-back.webp" alt="R5 adverse back view"><sub>BACK / 规则边缘和大面仍需改善</sub></td><td width="50%"><img src="docs/images/overnight-20261018/r5-eye.webp" alt="R5 actual eye-level view with foreground occlusion"><sub>EYE LEVEL / 近面遮挡如实保留</sub></td></tr></table>
 
-## Visual Gallery
+## 03 / 把制作过程变成证据
 
-<table>
-<tr>
-<td width="50%">
-<img src="media/settlement-detail-g012.jpg" width="100%"><br>
-<sub><b>G012 — fixed HERO camera.</b> The same settlement from the second protected primary view: five room identities read independently, and Station01 is no longer lost inside the tower silhouette.</sub>
-</td>
-<td width="50%">
-<img src="media/stable-source-g004.jpg" width="100%"><br>
-<sub><b>G004 — same HERO camera, UE source provenance.</b> The stable source measured against, so "retained" is not a bare assertion: both frames come from <code>scenespec_camera_hero</code> at the identical transform (location −4700, −4100, 1350 cm; rotation −6°, 52°; FOV 58; 1280×720; camera move count 0). Settlement density and shore layering are what changed; tower transform and water negative space did not.</sub>
-</td>
-</tr>
-</table>
+**Human Design → Blender / Python → Geometry QA → Fresh Reload → Fixed-Camera Review → Human Review → UE Integration**
 
-### Recent convergence — G010 → G011 → G012
+技术步骤及多机位输出已有局部执行证据。Human Art 未通过；**R5 聚落组合和 UE 集成未完成**。
 
-<p align="center">
-<img src="media/progress-g010-g011-g012.jpg" width="920" alt="Tidemark G010 G011 G012 C027 progression, identical camera poses">
-</p>
+| 技术问题 | 实现方式 | 证据边界 |
+|---|---|---|
+| 连续岩核是否成立？ | 连通分量、非流形边、退化面、法线与体积检查 | 有限自交检测不是严格无自交证明 |
+| 规划落位是否保持？ | 锁定输入与每候选 511 个规划接触采样 | 不等于真实建筑承载、碰撞或可行走 |
+| 保存结果是否可信？ | 独立 Blender 进程回读并核对几何签名 | 岩核重载 PASS 不等于聚落已生成 |
+| 改动是否值得保留？ | 固定机位、前后对照、不利视角与美术门禁 | 自动技术 PASS 不能代替 Human Art |
 
-The comparison shows the recent integrated-settlement phase: G010 restored visible density, G011 improved asymmetry / grounding / platform relationships, and G012 combines those lessons into the first candidate **of this phase** to clear the supplied technical retention gate (G010 and G011 were rated PARTIAL / not retained). All three panels use identical protected camera poses; G010 and G011 are **not retained**, and are shown as evidence rather than as current state.
+[方法、实测结果与限制 →](docs/process/08-cb-continuous-rock-research.md)
 
-## Technical Art / Environment Work
+## 04 / 真实 UE 接口研究
 
-Implemented and evidenced in the current project:
+<p><a href="docs/process/07-world-art-002-real-ue-engineering.md"><img src="media/process/world-art-002-20261011/wart002-landing-before-after.jpg" width="1120" alt="Actual UE LowerUtility landing before-after and measured interface research"></a></p>
 
-- Semantic scene construction and replaceable visual layers.
-- Separation between **visual blockout** and the protected gameplay / collision surface.
-- Fixed-camera review from governed C027 / HERO / OVERVIEW viewpoints.
-- Iterative Blender → UE candidate authoring for island geology and settlement massing.
-- Candidate-only terrain / architecture changes with protected-source regression checks.
-- Building / terrain interface auditing: foundation contact, entrance → landing → stair/path → yard relationships.
-- Boardwalk / dock / shoreline composition kept independent from visual terrain experiments.
-- Real ACharacter regression on the inherited protected gameplay surface.
-- Save / reload with a fresh-process actor-ledger regression (3157 actors, zero unexpected diffs), package hashing, evidence manifests, and fail-closed production guards.
+从登陆空隙、木质连接到建筑基础：使用实际 UE Actor、空间测量和独立保存回读。新视觉组件与 Gameplay Collision 分层；**继承路线测试不能认证新视觉结构可行走**。
 
-Important evidence boundary: the G012 Character regression validates the **inherited G004 gameplay collision only**. It does **not** certify the new visual terrain or new visual stairs as walkable production geometry.
+[UE 接口案例](docs/process/07-world-art-002-real-ue-engineering.md) · [真实工程图板](docs/process/06-real-engineering-boards.md) · [完整历史档案](docs/visual-gallery.md)
 
-## Development Progress
+## 05 / 当前真实状态 · 2026.10.18
 
-### Early greybox / First Art Pass
+| 项目 | 状态 |
+|---|---|
+| G012 | Retained visual baseline，未 canonical promotion |
+| R5 岩核 / 独立重载 / 原八机位 | 已有真实技术证据 / Technical PASS |
+| R5 岩体自然度 | Art PARTIAL / Human Review PENDING |
+| 六房 + TowerProxy 组合 | **尚未生成**；入口已准备，资源门禁阻断 |
+| 混元海岸绞盘研究 | **未提交**；余额与计费模式待核验，无资产展示 |
+| 正式 UE 场景、Gameplay | 本轮未修改 |
+| 下一里程碑 | 受控生成真实聚落组合，检查接地与多机位空间关系 |
 
-![Greybox versus First Art Pass](media/greybox-comparison.jpg)
+## About the work
 
-The original public showcase stopped around the first visual pass. That material is now historical progress evidence rather than the project’s current state.
+个人工作围绕空间设计、Blender/Python 几何流程、UE 场景接口、自动化验证与证据整理展开，Agent 辅助编码和执行。EngineeringGuard / RestrictToolbag 展示的是**项目集成与使用**，不冒称独立原创通用产品。
 
-### World structure and reference convergence
+本仓库是精选 Showcase，不包含完整 UE 工程、私有日志、凭据或未审查的第三方源资产。原始 governed concept 未确认公开权利，故不发布原画。新增模型图像为真实 Blender 输出，无 AI 生图替代工程截图。
 
-Subsequent work rebuilt the environment logic around a more plausible island / shoreline / settlement relationship, while preserving protected gameplay and camera constraints. Terrain, boardwalk relation, water negative space, tower hierarchy, and settlement massing were iterated as isolated candidates rather than overwritten in place.
+**工具：** Unreal Engine 5.6.1 · Blender 2.93.18 · Python · FBX · Git · Agent-assisted QA  
+**研究方向：** Environment Art · Technical Art · Reproducible Digital Design
 
-### Integrated settlement phase
-
-G010–G012 shifted the problem from “terrain-only convergence” to **architecture + geology + circulation as one composition**. G012 is the first retained candidate of this phase.
-
-<details>
-<summary><b>Development history — earlier captures (not current state)</b></summary>
-
-<table>
-<tr>
-<td width="33%">
-<img src="media/history-first-art-pass.jpg" width="100%"><br>
-<sub><b>First Art Pass.</b> The capture originally used for public review. Historical evidence only.</sub>
-</td>
-<td width="33%">
-<img src="media/history-route-view.jpg" width="100%"><br>
-<sub><b>Route view.</b> Character-traversal check on the protected gameplay surface.</sub>
-</td>
-<td width="33%">
-<img src="media/history-boardwalk-detail.jpg" width="100%"><br>
-<sub><b>Boardwalk detail.</b> The approach composition later kept stable across candidates.</sub>
-</td>
-</tr>
-</table>
-
-These images are archived project evidence. None of them describes the current retained candidate, and they are kept out of the first screen on purpose.
-
-</details>
-
-## Current Focus
-
-Human review of G012 is now the main gate.
-
-The current questions are visual rather than purely technical:
-
-- Is the settlement density sufficient from the fixed hero views?
-- Does the island read as a stepped, asymmetric coastal settlement instead of an oval terrain mass?
-- Are tower, support buildings, terraces, stairs, and shoreline integrated convincingly?
-- Which blockout relationships should be frozen before production asset work?
-
-## Next Milestone
-
-If Human Art review accepts the G012 direction:
-
-1. Freeze the integrated island / settlement layout.
-2. Convert the strongest blockout relationships into targeted production assets.
-3. Continue terrain / coast naturalism, architecture refinement, vegetation composition, and material development.
-4. Validate any future gameplay handoff separately from visual terrain authoring.
-
-If Human Art review rejects the composition, iteration stays candidate-only; the canonical scene is not silently replaced.
-
-## Status / Limitations
-
-- **Human Art:** PENDING.
-- **Canonical promotion:** NOT PERFORMED.
-- **Current retained visual candidate:** G012.
-- **UE source provenance:** G004 — selected as the best generation of its overnight run, which was itself rated **PARTIAL** with an open `GAMEPLAY_RELATION = CONFLICT`. "Source provenance" means the lineage G012 was measured against, not a finished or approved scene.
-- **New visual terrain walkability:** NOT CERTIFIED.
-- **Final materials / vegetation / coast art:** NOT COMPLETE.
-- **Lighting / camera:** protected; current comparisons do not fabricate camera alignment to the concept.
-- The concept reference is used for composition and massing guidance; it is not camera-calibrated, so raw pixel similarity is not treated as an acceptance metric.
-
-## Distribution / Attribution
-
-This repository is a teacher / portfolio review surface, not a full project distribution.
-
-It does **not** publish the complete UE project, Saved / Intermediate / DDC / Build outputs, private agent logs, credentials, or unverified third-party source assets.
-
-The current showcase images are derived from real project captures. No AI-generated image is presented as Unreal Engine runtime output.
-
-[Technical overview](docs/technical-overview.md) · [Current status](docs/status.md) · [Showcase sync audit](docs/TIDEMARK_SHOWCASE_SYNC_AUDIT.md)
-
-[Lilith — Portfolio](https://github.com/lilith-techart)
+<p align="center"><sub>Technical evidence is not art approval. Human Art PENDING · No canonical promotion.</sub></p>

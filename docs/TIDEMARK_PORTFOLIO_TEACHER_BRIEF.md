@@ -19,6 +19,6 @@
 
 ## 当前边界与未来研究
 
-G012 是 retained baseline，不是最终作品。R5 岩核技术证据完整，但自然度仍为 PARTIAL；六房和塔体组合尚未生成，受资源门槛阻断。混元绞盘尚未提交，不能展示为成功。Human Art PENDING，没有 canonical promotion。
+G012 是 retained baseline，不是最终作品。R5 岩核技术证据完整，但自然度仍为 PARTIAL；六房与塔体组合现已生成、独立重载，并完成一轮建筑和局部台阶的 Blender 美术候选研究。整岛路线仍未连通，门为封闭立面代理，未认证碰撞或可行走性，也未进入 UE。混元绞盘尚未提交，不能展示为成功。Human Art PENDING，没有 canonical promotion。[最新建筑研究](process/09-r5-settlement-art.md)。
 
 下一步研究真实建筑与岩岛支撑关系，以及人工设计、程序几何、生成式资产如何协作。目标是可复现的数字空间设计方法，不声称已有论文、算法新颖性证明或商业项目经历。

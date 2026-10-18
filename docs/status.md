@@ -1,10 +1,10 @@
 # Tidemark — Current Status
 
-Updated: 2026-10-18.
+Updated: 2026-10-19.
 
 ## Latest checkpoint — C+B / B2 research
 
-G012 remains the retained UE visual baseline; not canonical promotion. Separate R5 Revision2 rock-core research has historical independent reload and eight-camera evidence, with **Art PARTIAL / Human PENDING**. R5 six-building and TowerProxy composition has **not been generated**; resource gates remain blocking. This portfolio publication does not execute Blender or UE.
+G012 remains the retained UE visual baseline; not canonical promotion. The separate R5 six-building / TowerProxy composition has now been generated and independently reloaded. A new Blender settlement art candidate adds architectural modules and partial access geometry, with **Art PARTIAL / Human PENDING**. This is not a final UE environment; no UE integration was executed. Six main-route segments remain blocked by the immutable rock geometry. [Current research](process/09-r5-settlement-art.md).
 
 HY3D coastal winch: **NOT SUBMITTED**. Local SDK/MCP integration and secure credential storage do not prove cloud generation, balance or billing configuration. No asset is shown as generated or game-ready.
 

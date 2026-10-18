@@ -44,7 +44,7 @@ Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低
 
 **Human Design → Blender / Python → Geometry QA → Fresh Reload → Fixed-Camera Review → Human Review → UE Integration**
 
-技术步骤及多机位输出已有局部执行证据。Human Art 未通过；**R5 聚落组合和 UE 集成未完成**。
+技术步骤及多机位输出已有局部执行证据。**R5 聚落组合、独立重载与建筑 LookDev 研究已完成；Art PARTIAL，Human Art 未通过，UE 集成未执行。**
 
 | 技术问题 | 实现方式 | 证据边界 |
 |---|---|---|
@@ -63,17 +63,29 @@ Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低
 
 [UE 接口案例](docs/process/07-world-art-002-real-ue-engineering.md) · [真实工程图板](docs/process/06-real-engineering-boards.md) · [完整历史档案](docs/visual-gallery.md)
 
-## 05 / 当前真实状态 · 2026.10.18
+## 05 / ROCK × SETTLEMENT — ART DEVELOPMENT · 2026.10.19
+
+![Actual Blender R5 settlement art candidate](docs/images/settlement-20261019/art-hero.webp)
+
+**Blender Settlement Art LookDev — Research Candidate / Art Candidate · Human Review Pending**
+
+在六房与塔体锁定参数、路线锚点、原岩核保持不变的条件下，加入真实檐口、托架、石砌墙基、立面代理和局部木质台阶。三组台阶、两条入口连接候选已有实际几何；六段主路线仍与岩面冲突，未强行建造。门是封闭立面代理，不等于可进入建筑。
+
+[建筑前后图板](docs/images/settlement-20261019/building-board.webp) · [登岛与路线](docs/images/settlement-20261019/access-board.webp) · [失败人眼视角](docs/images/settlement-20261019/human-board.webp) · [技术错误与修正](docs/images/settlement-20261019/technical-board.webp) · [完整说明](docs/process/09-r5-settlement-art.md)
+
+新增 Art_Hero 不替代原固定机位或 G012 UE 主视觉。所有新画面来自 Blender 实际模型；不是 Final UE5 Environment。原八机位和旧失败视角保留；Collision / Walkability NOT CERTIFIED。
+
+## 06 / 当前真实状态 · 2026.10.19
 
 | 项目 | 状态 |
 |---|---|
 | G012 | Retained visual baseline，未 canonical promotion |
 | R5 岩核 / 独立重载 / 原八机位 | 已有真实技术证据 / Technical PASS |
 | R5 岩体自然度 | Art PARTIAL / Human Review PENDING |
-| 六房 + TowerProxy 组合 | **尚未生成**；入口已准备，资源门禁阻断 |
+| 六房 + TowerProxy 组合 | 已生成并独立重载；建筑深化候选 Art PARTIAL / Human PENDING |
 | 混元海岸绞盘研究 | **未提交**；余额与计费模式待核验，无资产展示 |
 | 正式 UE 场景、Gameplay | 本轮未修改 |
-| 下一里程碑 | 受控生成真实聚落组合，检查接地与多机位空间关系 |
+| 下一里程碑 | Human 审查建筑语言、局部连接与不利视角；不自动 UE 集成 |
 
 ## About the work
 

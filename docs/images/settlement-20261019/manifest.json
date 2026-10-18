@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-19",
+  "scope": "Blender Settlement Art LookDev — Research Candidate",
+  "candidate_sha256": "3b63ee3c5f4e80173cc11d22b2af9521c7426be0d315dbab52b87651c563563c",
+  "fresh_reload": "PASS_ACTUAL_NEW_PROCESS",
+  "human_art": "PENDING",
+  "ue_integration": "NOT_EXECUTED",
+  "collision": "NOT_CERTIFIED",
+  "walkability": "NOT_CERTIFIED",
+  "sources": [
+    {
+      "file": "art-hero.webp",
+      "sha256": "2f3d3c1b3aeb36609b57715ad2f25a48440690fac57d1f6eb4d7080c44c858de",
+      "source_png_sha256": "14efb94b605daa6d2de8cb0e415a82cef207fc815ed0dc6b0ec3a7306d4c4ed3",
+      "width": 1920,
+      "height": 1080,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "art-dusk.webp",
+      "sha256": "d101800747b91c612127a85f42a0ec87fa005f26f99ad5b877176600dce8efa7",
+      "source_png_sha256": "cb4173f261661bb6f06b8d0f08e380a9471975eb91b766d6a2e0947b58f6c451",
+      "width": 1920,
+      "height": 1080,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "landing.webp",
+      "sha256": "bfca2f807ff8a4e499c4489e0ef6a66ea6798573444394d6190fdd3a80c65f4d",
+      "source_png_sha256": "b4e3e33aff8abd17e61d7c9db11a692fa43a47c653542f3050889ddeeb228141",
+      "width": 1600,
+      "height": 900,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "building-board.webp",
+      "sha256": "ad19f8e9eb8ca9a4e64d12efc8e28e920658e7fddafa82d9e0e9e8cbdac6bd3e",
+      "source_png_sha256": "c6d6c900aff8c4d06664f1f25a47114f07e4782525f58d1d925b80f1ef53980e",
+      "width": 2400,
+      "height": 1802,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "access-board.webp",
+      "sha256": "825e529c62858de701c038437e28ef8aacf1d712952408dece4af763f592976c",
+      "source_png_sha256": "f5f2cacb750ef365bceca91851a13ce337b335eb45add11f54de33050a85c652",
+      "width": 2400,
+      "height": 1802,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "human-board.webp",
+      "sha256": "0ebeebc550c0cce1fb9d6f4065f6a4109285022c4aad8091154768ecb061253f",
+      "source_png_sha256": "bdf716b89693e45a945c3cc0e0d82fdf01bf09c529a273e22c7c7189f8ba4a6b",
+      "width": 2400,
+      "height": 3284,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "technical-board.webp",
+      "sha256": "cf0861846a0865118eb2f8e862b7d9ac8f0322da955b758b96a69ec95203c1ab",
+      "source_png_sha256": "aa0f55be665c5da64f50866ae09689634d5c82acafcdbafe24d611b0508923a9",
+      "width": 2400,
+      "height": 1802,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    },
+    {
+      "file": "eight-views.webp",
+      "sha256": "a945d66958aa8e8844d6b1f0c1e35777cb91ad0f9c0743499177f34151425738",
+      "source_png_sha256": "d6df6dcee07430bf6f32ebd9bf8d0868c88cd34019dc5eaacb2fc8b943e67d81",
+      "width": 2400,
+      "height": 1148,
+      "provenance": "Actual Blender2.93.18 Eevee/Workbench fresh-reload renders. Contact sheets use full-frame fitting and labels outside images. No AI imagery.",
+      "rights": "New procedural geometry, materials and self-authored scene renders; user authorized curated research publication. Original concept and source model excluded."
+    }
+  ],
+  "raw_models_published": false,
+  "image_retouching": false
+}

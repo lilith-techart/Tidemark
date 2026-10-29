@@ -1,8 +1,14 @@
 # Tidemark — Current Status
 
-Updated: 2026-10-19.
+Updated: 2026-10-29.
 
-## Latest checkpoint — C+B / B2 research
+## Latest checkpoint — RUN014 environment craft
+
+RUN014 is an independently saved/reloaded Blender research candidate: **ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. Real improvements include arched openings, shutters, cambered eaves, porch support, tower windows and local harbor context. Two sample assets have executed high/low, UV and four-map bake chains, not all-scene game-ready certification. Rear platform/seams, foliage/clouds, water depth and production performance remain unresolved. UE integration, collision and walking are not certified. [Current public evidence and limitations](process/10-run014-environment-craft.md).
+
+G012 remains the retained UE visual baseline, not replaced by this Blender candidate. RUN015 foreground craft is a planned next research step, not a completed result. No private concept artwork, raw source assets, course material or machine logs are published in this update.
+
+## Historical checkpoint — C+B / B2 research (2026-10-19)
 
 G012 remains the retained UE visual baseline; not canonical promotion. The separate R5 six-building / TowerProxy composition has now been generated and independently reloaded. A new Blender settlement art candidate adds architectural modules and partial access geometry, with **Art PARTIAL / Human PENDING**. This is not a final UE environment; no UE integration was executed. Six main-route segments remain blocked by the immutable rock geometry. [Current research](process/09-r5-settlement-art.md).
 

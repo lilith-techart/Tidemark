@@ -1,11 +1,31 @@
-<p align="center"><sub>ENVIRONMENT DESIGN × TECHNICAL ART / FIELD NOTES 01</sub></p>
+<p align="center"><sub>COASTAL WORLDBUILDING · ENVIRONMENT ART × TECHNICAL ART</sub></p>
 <h1 align="center">T I D E M A R K</h1>
-<p align="center"><b>Coastal Worlds, Measured.</b><br>岩核、海岸聚落与可验证的实时环境制作</p>
-<p align="center"><img src="media/current-c027-g012.jpg" width="1120" alt="Real Unreal Engine G012 fixed C027 capture: lighthouse, six settlement volumes, timber approach and blockout coast"></p>
-<p align="center"><sub><b>REAL UNREAL ENGINE 5.6.1 CAPTURE</b> · G012 retained visual blockout · Human Art PENDING<br>真实画面，不是最终环境美术；未 canonical promotion。</sub></p>
-<p align="center"><a href="docs/TIDEMARK_PORTFOLIO_TEACHER_BRIEF.md">三分钟项目介绍</a> &nbsp; / &nbsp; <a href="docs/process/08-cb-continuous-rock-research.md">最新岩核研究</a> &nbsp; / &nbsp; <a href="docs/visual-gallery.md">真实 UE / Blender 档案</a> &nbsp; / &nbsp; <a href="docs/status.md">当前状态</a></p>
+<p align="center"><b>Coastal Worlds, Measured.</b><br>热带灯塔聚落 · 逐件制作的建筑语言 · 有据可查的环境研究</p>
+<p align="center"><a href="https://lilith-techart.github.io/Tidemark/"><img src="docs/images/run014/hero.webp" width="1120" alt="Actual Blender RUN014 Hero: arched-window village, lighthouse, teal canopy and timber harbor approach"></a></p>
+<p align="center"><sub><b>REAL BLENDER / EEVEE · RUN014 · 2026.10.29</b><br>Research candidate · Art PARTIAL · Human Art PENDING · Promotion NO<br>不是正式 UE 最终场景；G012 仍为 retained visual baseline。</sub></p>
+<p align="center"><a href="https://lilith-techart.github.io/Tidemark/">交互作品集</a> &nbsp; / &nbsp; <a href="docs/process/10-run014-environment-craft.md">最新制作与边界</a> &nbsp; / &nbsp; <a href="docs/visual-gallery.md">真实 UE / Blender 档案</a> &nbsp; / &nbsp; <a href="docs/status.md">当前状态</a></p>
 
-## 一座海岛，两种尺度的思考
+## RUN014 / 让建筑有工艺，让过程有证据
+
+**[进入响应式作品集 ↗](https://lilith-techart.github.io/Tidemark/)** — 同机位 RUN013 / RUN014 滑杆、建筑与登陆接口近景、双样板资产链、不利视角和保留的历史档案。
+
+![Real Blender arched facade and shutters](docs/images/run014/facade.webp)
+
+本轮有可见改善的部分：真实拱窗与开启百叶、石窗台、轻微弧形檐口、门廊支撑、灯塔窗洞，以及局部港口与环境层次。六栋建筑身份、主塔位置和原 Hero 构图保留。
+
+**两件实际制作样板，而非全场景“次世代完成”：** 新建 Village Facade 与 CC0 扫描衍生 Hero Shore Cliff，分别具备 High/Low、UV、真实 Normal / AO / Base Color / Roughness 四类 2048² 烘焙、材质安装及独立回读证据。Blender 是实际使用的生产 DCC，Python 辅助制作和验证；没有人工 Sculpt 笔触或其他软件生产使用的虚假声明。
+
+[查看实际高低模、UV和烘焙图板](docs/images/run014/pipeline.webp) · [公开技术摘要与来源](docs/process/10-run014-environment-craft.md) · [公开派生图哈希](docs/images/run014/manifest.json)
+
+**仍未解决：** Side/Back 人工平台、部分岩脚拼缝、规则棕榈与占位云层、远景和海岸深度。岩石 UV 利用率约28%，抽样仍有少量重叠。保存/重载通过不等于艺术通过，碰撞、通行、完整 UE 集成与生产性能未认证。IMA 本轮身份验证失败，没有取得或编造课程来源。
+
+下一步 RUN015 是近景灯具、木桥、木桶和棕榈的独立资产研究，**计划不等于已完成**。不自动晋级，不发布原始模型、私人原画或课程材料。
+
+---
+
+## 保留历史 / 一座海岛，两种尺度的思考
+
+以下 R5 与 G012 内容属于此前阶段档案，最新状态以上方 RUN014 为准。
 
 Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低层聚落、岩岸与木栈桥如何组成可信的海岛空间，同时建立可追踪的资产检查、保存重载、固定机位评审与保护回归流程。
 
@@ -75,7 +95,7 @@ Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低
 
 新增 Art_Hero 不替代原固定机位或 G012 UE 主视觉。所有新画面来自 Blender 实际模型；不是 Final UE5 Environment。原八机位和旧失败视角保留；Collision / Walkability NOT CERTIFIED。
 
-## 06 / 当前真实状态 · 2026.10.19
+## 06 / 历史检查点 · 2026.10.19
 
 | 项目 | 状态 |
 |---|---|

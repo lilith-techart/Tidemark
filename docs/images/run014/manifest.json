@@ -1,0 +1,187 @@
+{
+  "run": "RUN014",
+  "state": "PARTIAL / Human Art Pending",
+  "sources": "Real Blender render outputs; private source filenames/hashes only, no local paths",
+  "files": [
+    {
+      "public_file": "hero.webp",
+      "source_frame": "VALIDATED_HERO_FINAL_COLOR.png",
+      "source_sha256": "468ae08c77b7d01d62b2959ef2a0d7c99f31ed98c786ab895f09d29ca5a884df",
+      "sha256": "07182ed93c280cd9ba1f933246949065f59ccc90c62f0b1311a594572a587289",
+      "bytes": 98212,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "hero-mobile.webp",
+      "source_frame": "VALIDATED_HERO_FINAL_COLOR.png",
+      "source_sha256": "468ae08c77b7d01d62b2959ef2a0d7c99f31ed98c786ab895f09d29ca5a884df",
+      "sha256": "82ffb2b28ef209dabdc98c76bf9029aa8d151e451b30fb8faa8079129f1737c1",
+      "bytes": 38708,
+      "dimensions": [
+        960,
+        540
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "before-hero.webp",
+      "source_frame": "BEFORE_HERO.png",
+      "source_sha256": "26e43c4e8bd6b0705dc8c120136c811483cbaa44e1d15bb749c9ed6ad59c857b",
+      "sha256": "dfa6c111826ab109f5fcffe4b0d850de0f8b4a7b3a768951142da266e00c92a4",
+      "bytes": 72070,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "facade.webp",
+      "source_frame": "AFTER_FACADE.png",
+      "source_sha256": "4b5bbb83ed905e6f58064ad9ce7f1a02b70f1514b8d422f418820feff026053d",
+      "sha256": "977611d3ce2bd625698c42a64dcdea55e33b545386882f876997c7d4e74be0ca",
+      "bytes": 79106,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "before-facade.webp",
+      "source_frame": "BEFORE_FACADE.png",
+      "source_sha256": "91ff012dd08f7d0815305b87c1729aeaeafc415225e345f6d75e468e8cc15e95",
+      "sha256": "2d359d8b3a8148483c73b3d2cfd84494d7f59bbf6078984bb8fbf7594450c31a",
+      "bytes": 57976,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "landing.webp",
+      "source_frame": "AFTER_LANDING_DETAIL.png",
+      "source_sha256": "a8fc4dcd319f293621136bffde7a5ebf0a6f4ef9a3668dd8006f3c8ade4bd6aa",
+      "sha256": "1eae06d5916a82f5ac6f90874c6458eed64eacd2da04a01257f8b7d9d51d99c5",
+      "bytes": 68450,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "before-landing.webp",
+      "source_frame": "BEFORE_LANDING_DETAIL.png",
+      "source_sha256": "9108d37874cfbcf9995f07350dc9245c500092b034d84ff5a1414aad21bcdba2",
+      "sha256": "aa9481c0c27f32bb82973e1c60da055a4c05981cf11bf16da409b202b210b5ae",
+      "bytes": 62938,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "cliff.webp",
+      "source_frame": "AFTER_CLIFF.png",
+      "source_sha256": "1a34fc7d7780ae6ba881f1922d426bbdf5eea72550baa9688942d6a55e45627d",
+      "sha256": "f6d7870a640bc2ae37209d30fcae433d6ebc039ac27c10a71e21a30aee11beaf",
+      "bytes": 29444,
+      "dimensions": [
+        1200,
+        675
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "before-cliff.webp",
+      "source_frame": "BEFORE_CLIFF.png",
+      "source_sha256": "e3b922f2358193cfb552dc45a3eb98dfd292d0465ac003af0ad2b8c22bf0c880",
+      "sha256": "2a749b120168cd327bde3387646d4227ec193bcc3fd8d74997565200749dfc9c",
+      "bytes": 29978,
+      "dimensions": [
+        1200,
+        675
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "side.webp",
+      "source_frame": "VALIDATED_SIDE.png",
+      "source_sha256": "4660cf4f750d393a2b217ea0ab3825bc9f4fcd19bb69f8114da923a062192152",
+      "sha256": "d3e7d3a493b63a05fff03285deba53a2ed6ea40994943ae6dc7d81298b364af5",
+      "bytes": 53648,
+      "dimensions": [
+        1200,
+        675
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "back.webp",
+      "source_frame": "VALIDATED_BACK.png",
+      "source_sha256": "9187f36ebf92b80ae2ba5cbe15f25f8093ec3b549088c42bf3b6ce1b3862cc69",
+      "sha256": "140ecedcfaaa7e12f033b20cf7a4eac499728e133fb8fa34e69332154b03b561",
+      "bytes": 55990,
+      "dimensions": [
+        1200,
+        675
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "eye.webp",
+      "source_frame": "VALIDATED_EYE_LEVEL.png",
+      "source_sha256": "9b7dd0e8ce5e8257e0f1b16d2ead8809ad2fb443f5f7f257054610a58a2e6d36",
+      "sha256": "1b2e7e1185f5d10937e5749e06da8b7e70531b7dad2d9b97493eb1526955491e",
+      "bytes": 66446,
+      "dimensions": [
+        1200,
+        675
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "pipeline.webp",
+      "source_frame": "NEXTGEN_PIPELINE_PROOF.png",
+      "source_sha256": "21d1ca102cfb75834203880e2daf3ab9b35df041fde967f01e980cdcdff05256",
+      "sha256": "f466a934c7c25b350c4380be48893b0a5b25a0b8e0886f223095e6af4eaca416",
+      "bytes": 290642,
+      "dimensions": [
+        2400,
+        1710
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "facade-low.webp",
+      "source_frame": "VillageFacadeV3_LOW_BAKED.png",
+      "source_sha256": "de449520f0a4cde0950bc6284c261db09bfc89b7170c215526470cfcf5524f05",
+      "sha256": "0ef697756b1b14a3412151c1850f71ceb6352179dcacd1b2be26f773d5cda18b",
+      "bytes": 21592,
+      "dimensions": [
+        1000,
+        563
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    },
+    {
+      "public_file": "rock-low.webp",
+      "source_frame": "HeroShoreCliff_LOW_BAKED.png",
+      "source_sha256": "985cfdb1614d4e3d48c0f8f461a2094afe277d0621ba61b9f2fa954bd6a4e502",
+      "sha256": "25a34d991380d9dd6a5181d60d5dda6868620455d75fcd0d2e56d3d560880ecb",
+      "bytes": 9526,
+      "dimensions": [
+        1000,
+        563
+      ],
+      "operation": "contain resize and WebP encode only; no repaint, no reference-art pixels"
+    }
+  ]
+}

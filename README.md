@@ -1,11 +1,22 @@
 <p align="center"><sub>COASTAL WORLDBUILDING · ENVIRONMENT ART × TECHNICAL ART</sub></p>
 <h1 align="center">T I D E M A R K</h1>
 <p align="center"><b>Coastal Worlds, Measured.</b><br>热带灯塔聚落 · 逐件制作的建筑语言 · 有据可查的环境研究</p>
-<p align="center"><a href="https://lilith-techart.github.io/Tidemark/"><img src="docs/images/run014/hero.webp" width="1120" alt="Actual Blender RUN014 Hero: arched-window village, lighthouse, teal canopy and timber harbor approach"></a></p>
-<p align="center"><sub><b>REAL BLENDER / EEVEE · RUN014 · 2026.10.29</b><br>Research candidate · Art PARTIAL · Human Art PENDING · Promotion NO<br>不是正式 UE 最终场景；G012 仍为 retained visual baseline。</sub></p>
+<p align="center"><a href="https://lilith-techart.github.io/Tidemark/#run016"><img src="docs/images/run016/hero.webp" width="1120" alt="Actual Blender RUN016 Hero with refined foreground lantern barrel and pier"></a></p>
+<p align="center"><sub><b>REAL BLENDER / EEVEE · RUN016 · 2026.10.30</b><br>Research candidate · Art PARTIAL · Human Art PENDING · Promotion NO<br>不是正式 UE 最终场景；G012 仍为 retained visual baseline。</sub></p>
 <p align="center"><a href="https://lilith-techart.github.io/Tidemark/">交互作品集</a> &nbsp; / &nbsp; <a href="docs/process/10-run014-environment-craft.md">最新制作与边界</a> &nbsp; / &nbsp; <a href="docs/visual-gallery.md">真实 UE / Blender 档案</a> &nbsp; / &nbsp; <a href="docs/status.md">当前状态</a></p>
 
-## RUN014 / 让建筑有工艺，让过程有证据
+## RUN016 / 近景资产与真实 PBR 工艺
+
+[最新成果与局限](docs/process/11-run016-foreground-pbr.md) · [线上展示](https://lilith-techart.github.io/Tidemark/#run016)
+
+灯笼、木桶、栈桥三类资产已执行独立 High / Low / Cage、UV、2048px 高到低烘焙、Painter 材质与原生工程回读，再集成 Blender 并独立重载出图。中景棕榈经过 SpeedTree 原生编辑与场景安装。不是全场景次世代化，也不是已完成 UE 集成。
+
+![RUN016 foreground before after](docs/images/run016/foreground.webp)
+![Actual high low UV and bake evidence](docs/images/run016/pipeline.webp)
+
+仍有岛体平台感、岩脚拼缝、背景占位、简单海水与前景植物问题。Human Art 保持 PENDING；完整碰撞、通行与生产性能未测试。只公开审查图片与脱敏说明，不公开原画、课程、模型、Painter / SpeedTree 源文件或内部日志。
+
+## 历史 RUN014 / 让建筑有工艺，让过程有证据
 
 **[进入响应式作品集 ↗](https://lilith-techart.github.io/Tidemark/)** — 同机位 RUN013 / RUN014 滑杆、建筑与登陆接口近景、双样板资产链、不利视角和保留的历史档案。
 

@@ -1,0 +1,65 @@
+{
+  "status": "research PARTIAL; Human Art pending",
+  "images": [
+    {
+      "public_file": "hero.webp",
+      "source_evidence_id": "RUN016/renders/final2/HERO_FINAL_COLOR.png",
+      "source_sha256": "7f69fb50d2bc7120dcac27351e99aac6b75d4ebe0a075a9a22615d36c714f5f2",
+      "public_sha256": "9aa8850bf363ed7f97d7991b3f1dc94e7ab1fafe6218958818c5b7be8182c86d",
+      "bytes": 283934,
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "operation": "resize and WebP compression only"
+    },
+    {
+      "public_file": "foreground.webp",
+      "source_evidence_id": "RUN016/evidence/FOREGROUND_BEFORE_AFTER.jpg",
+      "source_sha256": "e372ca6c297ff2d5ba969c88aa3899f61e297198b46470d3828b33a9410fd5de",
+      "public_sha256": "5bb9cc5de6e8ed745888a5fb4028480e2de20fadd6f0f40b9675893d24d22e75",
+      "bytes": 441362,
+      "dimensions": [
+        2560,
+        2537
+      ],
+      "operation": "resize and WebP compression only"
+    },
+    {
+      "public_file": "pipeline.webp",
+      "source_evidence_id": "RUN016/evidence/NEXTGEN_PIPELINE_PROOF.jpg",
+      "source_sha256": "1237e2c493ec240cd249e0749e2420ed74c9cefdf644ddff18949bcd0fb95536",
+      "public_sha256": "3432336e54b0cfd104f11c20f55c1c8655088bb9a97073899b61bd2e74ebb7fa",
+      "bytes": 223928,
+      "dimensions": [
+        2560,
+        1748
+      ],
+      "operation": "resize and WebP compression only"
+    },
+    {
+      "public_file": "painter.webp",
+      "source_evidence_id": "RUN016/evidence/PAINTER_MAPS_PROOF.jpg",
+      "source_sha256": "d4cd57082be9976dffaceff9239f507f03800ce1a5c600bcafc9ff87566a1696",
+      "public_sha256": "723b38dc98ea33a3b746409e9343ef3e52051157c3d068d2eaf7f001efdd6198",
+      "bytes": 365940,
+      "dimensions": [
+        2476,
+        2560
+      ],
+      "operation": "resize and WebP compression only"
+    },
+    {
+      "public_file": "views.webp",
+      "source_evidence_id": "RUN016/evidence/MULTI_VIEW_BOARD.jpg",
+      "source_sha256": "e3b74cbeebb831a587683d239816d3ceb92b1b21514d5630f82b5135493b706b",
+      "public_sha256": "9b5587b9c781ee6f34b0d45cea490bd57e7cd9fd98c2a9e38ced7d18a27c9026",
+      "bytes": 345074,
+      "dimensions": [
+        2560,
+        1274
+      ],
+      "operation": "resize and WebP compression only"
+    }
+  ]
+}

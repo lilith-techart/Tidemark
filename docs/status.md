@@ -1,8 +1,14 @@
 # Tidemark — Current Status
 
-Updated: 2026-10-29.
+Updated: 2026-10-31.
 
-## Latest checkpoint — RUN014 environment craft
+## Latest checkpoint — RUN016 foreground PBR
+
+**ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. Three foreground asset families have real High/Low/Cage, UV, 2048px bakes and Painter native projects. Blender fresh reload and actual renders were completed. Midground palms use an edited SpeedTree template derivative; foreground foliage remains partial. This does not certify collision, walking, UE integration, performance or final environment art. IMA authentication failed. [Evidence, scope and limitations](process/11-run016-foreground-pbr.md).
+
+G012 remains the retained UE visual baseline. No raw source assets, private reference artwork, courses or machine logs are published.
+
+## Historical checkpoint — RUN014 environment craft
 
 RUN014 is an independently saved/reloaded Blender research candidate: **ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. Real improvements include arched openings, shutters, cambered eaves, porch support, tower windows and local harbor context. Two sample assets have executed high/low, UV and four-map bake chains, not all-scene game-ready certification. Rear platform/seams, foliage/clouds, water depth and production performance remain unresolved. UE integration, collision and walking are not certified. [Current public evidence and limitations](process/10-run014-environment-craft.md).
 

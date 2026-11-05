@@ -1,8 +1,16 @@
 # Tidemark — Current Status
 
-Updated: 2026-10-31.
+Updated: 2026-11-05.
 
-## Latest checkpoint — RUN016 foreground PBR
+## Selected visual vs latest research
+
+The public cover now shows **RUN018 C2**: an actual Blender fresh-reload color render, **ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. It is selected for visual presentation, not claimed as the newest accepted scene. [Selected images, adverse views and provenance](process/12-selected-visuals.md).
+
+The latest **RUN023** unified rock proof completed an initial mesh and one targeted revision. The revision was rejected for winding/overlap risks; the initial remains a failed research artifact. S02's same 413 prior terrain misses became zero, but coverage is not complete support. Interface gaps, penetrating old posts and platform/wall-like massing remain. **ART SELF REVIEW = FAIL; complete support = NOT VERIFIED.** No production promotion, UE integration or publication of native source follows.
+
+G012 is still the retained UE visual baseline. It is separate from the selected Blender artwork and is not canonical art acceptance.
+
+## Historical checkpoint — RUN016 foreground PBR
 
 **ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. Three foreground asset families have real High/Low/Cage, UV, 2048px bakes and Painter native projects. Blender fresh reload and actual renders were completed. Midground palms use an edited SpeedTree template derivative; foreground foliage remains partial. This does not certify collision, walking, UE integration, performance or final environment art. IMA authentication failed. [Evidence, scope and limitations](process/11-run016-foreground-pbr.md).
 

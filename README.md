@@ -1,11 +1,23 @@
 <p align="center"><sub>COASTAL WORLDBUILDING · ENVIRONMENT ART × TECHNICAL ART</sub></p>
 <h1 align="center">T I D E M A R K</h1>
 <p align="center"><b>Coastal Worlds, Measured.</b><br>热带灯塔聚落 · 逐件制作的建筑语言 · 有据可查的环境研究</p>
-<p align="center"><a href="https://lilith-techart.github.io/Tidemark/#run016"><img src="docs/images/run016/hero.webp" width="1120" alt="Actual Blender RUN016 Hero with refined foreground lantern barrel and pier"></a></p>
-<p align="center"><sub><b>REAL BLENDER / EEVEE · RUN016 · 2026.10.30</b><br>Research candidate · Art PARTIAL · Human Art PENDING · Promotion NO<br>不是正式 UE 最终场景；G012 仍为 retained visual baseline。</sub></p>
+<p align="center"><a href="https://lilith-techart.github.io/Tidemark/#selected-visual"><img src="docs/images/selected-20261105/hero.webp" width="1120" alt="RUN018 real Blender tropical harbor render with arched village windows curved tiles timber pier and warm lantern"></a></p>
+<p align="center"><sub><b>SELECTED VISUAL · REAL BLENDER / EEVEE · RUN018</b><br>Research candidate · Art PARTIAL · Human Art PENDING · Promotion NO<br>精选视觉成果，不代表最新实验已通过；不是正式 UE 最终场景。G012 仍为 retained visual baseline。</sub></p>
 <p align="center"><a href="https://lilith-techart.github.io/Tidemark/">交互作品集</a> &nbsp; / &nbsp; <a href="docs/process/10-run014-environment-craft.md">最新制作与边界</a> &nbsp; / &nbsp; <a href="docs/visual-gallery.md">真实 UE / Blender 档案</a> &nbsp; / &nbsp; <a href="docs/status.md">当前状态</a></p>
 
-## RUN016 / 近景资产与真实 PBR 工艺
+## 精选视觉 / 从海港氛围，到可审查的资产工艺
+
+奶油色拱窗、开启百叶、弧面叠瓦、木廊与蓝绿布棚构成聚落语言；前景灯笼、木桶和栈桥引导视线走向灯塔。封面选自 RUN018 的真实独立重载渲染，仅进行尺寸压缩，没有 AI 重绘或后期修形。
+
+[精选图像、局部与边界](docs/process/12-selected-visuals.md) · [交互展示](https://lilith-techart.github.io/Tidemark/#selected-visual)
+
+<table><tr><td width="60%"><img src="docs/images/selected-20261105/lamp.webp" alt="Actual RUN018 oak lamp post and pier scene detail"><sub>暖灯、木构与码头 / 实际场景局部</sub></td><td width="40%"><img src="docs/images/selected-20261105/roof.webp" alt="Actual curved roof tile material sample from RUN018"><sub>弧面瓦模块 / 工艺研究样板，非最终资产认证</sub></td></tr></table>
+
+**状态截至 2026-11-05：** 精选 RUN018 仍为 **PARTIAL**。后续 RUN019–RUN023 继续研究岩岛体量；最新 RUN023 的 S02 原413处地形漏射降为0，但旧柱穿入和接口缝仍存在，完整承托未验证，人工平台感未解决，艺术自审 **FAIL**。不以射线命中、保存或烘焙成功冒充美术通过。
+
+**公开范围：** 真实场景图片与脱敏说明。原画、私人课程、凭证、模型及 Painter / SpeedTree 原生工程不公开。碰撞、通行、全场景性能及正式 UE 集成未认证。
+
+## 历史 RUN016 / 近景资产与真实 PBR 工艺
 
 [最新成果与局限](docs/process/11-run016-foreground-pbr.md) · [线上展示](https://lilith-techart.github.io/Tidemark/#run016)
 
@@ -36,7 +48,7 @@
 
 ## 保留历史 / 一座海岛，两种尺度的思考
 
-以下 R5 与 G012 内容属于此前阶段档案，最新状态以上方 RUN014 为准。
+以下 R5 与 G012 内容属于此前阶段档案；当前精选与研发状态见页首及状态页。
 
 Tidemark 是个人 **环境设计与 Technical Art** 研究：探索灯塔、低层聚落、岩岸与木栈桥如何组成可信的海岛空间，同时建立可追踪的资产检查、保存重载、固定机位评审与保护回归流程。
 

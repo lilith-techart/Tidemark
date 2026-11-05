@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "source_checkpoint": "RUN018 C2_UV_REVIEW",
+    "source_image": "C2_HERO_FINAL_COLOR.png",
+    "source_sha256": "b8e83f3ff3b65bd6c5de059ed42866c9fb827a98645a56482b4f8eab5a7fde74",
+    "published_sha256": "5431c3e99955ace550781887549726b4bd3c572f6e7504ff1e36e49911d032ea",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "processing": "resize and WebP compression only; no repaint, generative edit, crop or color correction"
+  },
+  "lamp": {
+    "source_checkpoint": "RUN018 C2_UV_REVIEW",
+    "source_image": "C2_LAMP_DETAIL.png",
+    "source_sha256": "1c8627dac474965e338841127df3c0aa7cfb0a8fcb40cdd35836b9092a1e988b",
+    "published_sha256": "9e7160a84cd5fddb22fc5fb26d6080d23f43c8958529f5072e9b6849a804ed1c",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "processing": "resize and WebP compression only; no repaint, generative edit, crop or color correction"
+  },
+  "roof": {
+    "source_checkpoint": "RUN018 H07 sample",
+    "source_image": "H07_ROOF_KIT_PBR.png",
+    "source_sha256": "d8d40ff6f0b87b9151d4704160ec9a48db21b581bdb0b6305603bf4319b53cbb",
+    "published_sha256": "72167a626f88b095cbd4eb773269ddf3f0096b970fff4e5756d77314487ee42e",
+    "dimensions": [
+      1440,
+      1080
+    ],
+    "processing": "resize and WebP compression only; no repaint, generative edit, crop or color correction"
+  },
+  "side": {
+    "source_checkpoint": "RUN018 C2_UV_REVIEW",
+    "source_image": "C2_SIDE.png",
+    "source_sha256": "fa753e314e0d2bcdd676a59f51adbd5e9dd535994c8faa4e9629e4136685eb7d",
+    "published_sha256": "0c9b156c64473349a6152f089cda3d1822ecd5e4629fb21ee6f4d26690a320b4",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "processing": "resize and WebP compression only; no repaint, generative edit, crop or color correction"
+  },
+  "back": {
+    "source_checkpoint": "RUN018 C2_UV_REVIEW",
+    "source_image": "C2_BACK.png",
+    "source_sha256": "95488364ed85ec4a4234641c75ad10de6c6dd2092d8cac6a0972245d98c60fc3",
+    "published_sha256": "2284b45ef27445db865a44bd9418e3edb71096147c2ff93c9be207e2a98e83e9",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "processing": "resize and WebP compression only; no repaint, generative edit, crop or color correction"
+  }
+}

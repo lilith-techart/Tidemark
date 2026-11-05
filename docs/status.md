@@ -1,12 +1,16 @@
 # Tidemark — Current Status
 
-Updated: 2026-11-05.
+Updated: 2026-11-06.
 
 ## Selected visual vs latest research
 
 The public cover now shows **RUN018 C2**: an actual Blender fresh-reload color render, **ART PARTIAL / HUMAN ART PENDING / PROMOTION NO**. It is selected for visual presentation, not claimed as the newest accepted scene. [Selected images, adverse views and provenance](process/12-selected-visuals.md).
 
-The latest **RUN023** unified rock proof completed an initial mesh and one targeted revision. The revision was rejected for winding/overlap risks; the initial remains a failed research artifact. S02's same 413 prior terrain misses became zero, but coverage is not complete support. Interface gaps, penetrating old posts and platform/wall-like massing remain. **ART SELF REVIEW = FAIL; complete support = NOT VERIFIED.** No production promotion, UE integration or publication of native source follows.
+The latest **RUN025** is a single Hero Cliff pilot, not another island rebuild. Native Blender Sculpt strokes genuinely modified the mesh; the editable file was independently reopened and four asset views rendered. However, broad planar faces and isolated brush bumps remain: **ART SELF REVIEW = FAIL**. PBR, settlement installation and S02 support regression were not performed. A working brush API is not artistic success or a claim of human sculpting.
+
+**RUN024:** both rock-mass methods failed art review. Neither proceeded to building installation or S02 retesting. No contact result from RUN023 is inherited by RUN024 or RUN025.
+
+Historical **RUN023** completed an initial mesh and one targeted revision. The revision was rejected for winding/overlap risks; the initial remains a failed research artifact. S02's same 413 prior terrain misses became zero, but coverage is not complete support. Interface gaps, penetrating old posts and platform/wall-like massing remain. **ART SELF REVIEW = FAIL; complete support = NOT VERIFIED.** No production promotion, UE integration or publication of native source follows.
 
 G012 is still the retained UE visual baseline. It is separate from the selected Blender artwork and is not canonical art acceptance.
 

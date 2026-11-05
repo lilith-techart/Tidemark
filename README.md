@@ -13,7 +13,7 @@
 
 <table><tr><td width="60%"><img src="docs/images/selected-20261105/lamp.webp" alt="Actual RUN018 oak lamp post and pier scene detail"><sub>暖灯、木构与码头 / 实际场景局部</sub></td><td width="40%"><img src="docs/images/selected-20261105/roof.webp" alt="Actual curved roof tile material sample from RUN018"><sub>弧面瓦模块 / 工艺研究样板，非最终资产认证</sub></td></tr></table>
 
-**状态截至 2026-11-05：** 精选 RUN018 仍为 **PARTIAL**。后续 RUN019–RUN023 继续研究岩岛体量；最新 RUN023 的 S02 原413处地形漏射降为0，但旧柱穿入和接口缝仍存在，完整承托未验证，人工平台感未解决，艺术自审 **FAIL**。不以射线命中、保存或烘焙成功冒充美术通过。
+**状态截至 2026-11-06：** 精选 RUN018 仍为 **PARTIAL**。RUN024 两套岩体方法均为 **ART FAIL**，未进入建筑安装或 S02 重测。RUN025 已从整岛迭代转向单块 Hero Cliff：真实原生 Sculpt 笔刷、独立保存重载和四视图已执行，但样板仍有大平面与局部团块，**艺术自审 FAIL**，未进入 PBR 或场景安装。RUN023 的413处漏射归零仅是历史局部测量，不能继承为新候选的承托证明。不以射线命中、保存或烘焙成功冒充美术通过。
 
 **公开范围：** 真实场景图片与脱敏说明。原画、私人课程、凭证、模型及 Painter / SpeedTree 原生工程不公开。碰撞、通行、全场景性能及正式 UE 集成未认证。
 

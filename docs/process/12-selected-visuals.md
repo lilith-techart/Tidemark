@@ -1,6 +1,6 @@
 # Selected Visuals — Coastal Worlds, Crafted & Measured
 
-Updated 2026-11-05. **Selected visual is not latest accepted production.**
+Updated 2026-11-06. **Selected visual is not latest accepted production.**
 
 ![Actual RUN018 Blender Hero](../images/selected-20261105/hero.webp)
 
@@ -16,6 +16,8 @@ RUN018 C2_UV_REVIEW, actual Blender 2.93.18 / EEVEE fresh-reload render. The oak
 Blender asset work, Painter native projects and actual bake/export steps, SpeedTree variants and scene integration exist in the private research archive. These executed steps do not prove accepted asset quality. RUN018's palm close-up and replacement cork look were not accepted; UV, normals and complete support remain limited. Earlier [RUN014 craft](10-run014-environment-craft.md) and [RUN016 asset evidence](11-run016-foreground-pbr.md) remain available with their original scope.
 
 ## Keep the adverse views
+
+Latest method checkpoint: **RUN024 A/B ART FAIL**, with no building installation or S02 retest. **RUN025** changed approach to one standalone Hero Cliff. Native Blender Sculpt deformation, save/reload and four real asset views were executed, but planar massing and brush bumps remain: **ART SELF REVIEW FAIL**. No PBR or scene installation followed. This failed pilot does not replace the selected RUN018 cover or demonstrate completed human sculpting.
 
 ![Actual RUN018 side](../images/selected-20261105/side.webp)
 ![Actual RUN018 back](../images/selected-20261105/back.webp)
